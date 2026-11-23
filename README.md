@@ -72,6 +72,7 @@ That is what this project is for. It is not about willpower, and never about sha
 - Stays with you through a craving, in replies short enough to read while it lasts (usually three to five minutes)
 - Keeps the count and the clock, and shows its arithmetic so you can check it
 - Explains withdrawal symptoms and how long each one lasts
+- Finds out what exists where you live: the quitline, which medicines are sold and how, who pays, and who to call in a crisis
 - Handles a slip without the "might as well finish the pack" spiral, and a relapse without blame
 - Knows where it stops: mental-health red flags, pregnancy, serious illness and drug interactions go to the right professional
 
@@ -111,12 +112,12 @@ It is not a prescriber, not a crisis service, and not a substitute for a doctor,
 
 ## Honest status
 
-Version 0.8.4.
+Version 0.9.0.
 
 | | State |
 |---|---|
 | One adult daily cigarette smoker (the author) | Used live, day by day; the attempt is still in progress |
-| Other countries | Written guidance for when no country file exists; only Romania has a file |
+| Countries | Romania checked in live use. Nine more files (United Kingdom, United States, Germany, Netherlands, Hungary, Poland, Russia, Ukraine, Bulgaria) written from official sources and not yet checked by anyone who lives there. Everywhere else the coach looks things up at official sources, or says that it cannot |
 | Waterpipe, smokeless tobacco, vapes, other products | Written from WHO and Cochrane sources; not yet used with anyone |
 | Minors, older adults, pregnancy | Written; routes to clinicians; not yet used with anyone |
 | People who fast, people who do not drink, shift workers | Written; not yet used with anyone |
@@ -151,7 +152,7 @@ If you want the next person to find it more easily, star the repository.
 
 All files in this repository are written in English, country files included; local medicine and programme names stay as printed. The coach itself answers in the language of the person it is talking to.
 
-- **Country files** are the most useful contribution: copy `references/country/_template.md`, fill in what is really available and what it costs where you live, date it, and open a pull request.
+- **Country files** are the most useful contribution. Check one of the existing files against what is true where you live, or copy `references/country/_template.md`, fill in what is really available and what it costs, date it, and open a pull request.
 - **Reviews by clinicians**, and corrections to the evidence base with a source, are always welcome.
 - Please don't add content that prescribes doses, promises outcomes, or removes safety boundaries.
 
@@ -186,7 +187,9 @@ last-cigarette/                   # repository and skill share the name
 │   ├── mental-health-and-safety.md
 │   ├── special-situations.md     # alcohol, weekends, partner who smokes, comorbidities
 │   └── country/                  # what's actually available, by country
-│       ├── romania.md
+│       ├── romania.md            # checked in live use
+│       ├── bulgaria.md, germany.md, hungary.md, netherlands.md, poland.md, russia.md,
+│       │   ukraine.md, united-kingdom.md, united-states.md   # from official sources
 │       └── _template.md
 ├── templates/
 │   ├── personal-plan.md

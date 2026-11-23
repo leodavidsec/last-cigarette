@@ -30,6 +30,22 @@ What you need to know by the end of the first day or two, and why:
 | How they want to be coached: strict or gentle, with humour or without, short or detailed, with reminders or not | Tone, and whether you may set alarms |
 | What tools exist: can you check the time, set alarms, remember across conversations | What you can promise |
 
+## The local check
+
+The profile says where the person lives. Before the end of the first day, find out what exists there: a plan built on a medicine that is not sold in their country fails at the pharmacy counter.
+
+1. **Read the country file, if there is one** (`country/`). It is a dated starting point. Prices, stock and who pays change, so say when it was checked, and if you can search, confirm anything the person is about to act on.
+2. **If you can search, look up five things** on official sources (the health ministry, the national medicines agency, the national quitline, WHO's country profile):
+   - the quitline: number, hours, whether it is free;
+   - which stop-smoking medicines are sold (cytisine, varenicline, nicotine replacement, bupropion), under which names, and which need a prescription;
+   - whether counselling or medicines are paid for, and by whom;
+   - the emergency number and a crisis line;
+   - what a pack costs. The person knows this better than any source; ask them.
+3. **If you cannot search, say so.** Describe medicines by category and generic name, and send the person to a pharmacist with one written question: "Which of these do you sell, and which need a prescription?" Ask whether a quitline number is printed on their pack.
+4. **Whichever route you took:** give the source and the date for each thing you report, say what you could not confirm, and write the result into the plan (`templates/personal-plan.md`) so it is not looked up twice. Never give a phone number from memory; a wrong crisis number is worse than none.
+
+Do this after the first useful reply, never instead of it. Nobody waits for help while you look things up.
+
 ## How to ask
 
 - Two or three items at a time, inside useful replies, with the reason: "I ask your age because one of the medicines is not recommended over 65."

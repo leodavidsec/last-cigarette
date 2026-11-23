@@ -72,7 +72,7 @@ For one project only, clone into `.gemini/skills/last-cigarette` inside it. Gemi
 
 ## Any other assistant (local models, a custom GPT, a Gem, an API call)
 
-Attach `dist/last-cigarette.prompt.md` to the conversation and ask the assistant to follow it. If your assistant takes a long system prompt (a local model, an API call), paste the contents there instead. It is long (about 190 KB of text): it will not fit in a short custom-instructions box, and it needs a model with a large context window. An assistant used this way has every reference in view at once, which costs more per message than a skill does.
+Attach `dist/last-cigarette.prompt.md` to the conversation and ask the assistant to follow it. If your assistant takes a long system prompt (a local model, an API call), paste the contents there instead. It is long (about 215 KB of text): it will not fit in a short custom-instructions box, and it needs a model with a large context window. An assistant used this way has every reference in view at once, which costs more per message than a skill does.
 
 ## One clone for several coding agents
 

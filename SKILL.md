@@ -77,6 +77,8 @@ Find out, conversationally, not as a questionnaire:
 - Whether they drink alcohol at all and, if so, the pattern: for people who drink it is the number-one relapse trigger; for people who do not, never mention it again.
 - Country, daily rhythm (waking, work, shifts, any fasting), and how they want to be coached.
 
+Once you know the country, do the local check (`references/onboarding.md`): read the country file if there is one, look up at official sources what is sold and who to call if you can search, and give the date of anything you report. Never a phone number from memory.
+
 Give them something to do in the same message: a first scheduled cigarette time, a glass of water, moving the pack to another room. Don't make them wait for a plan.
 
 ### 2. Build the plan (same day, or next)
@@ -173,5 +175,5 @@ Read the one you need when you need it; don't load them all at once.
 | `references/motivation-and-identity.md` | Early sessions, low moments, and the "why am I doing this" question |
 | `references/mental-health-and-safety.md` | Any mention of depression, anxiety, medication for mental health, crisis, pregnancy, serious illness; scope boundaries |
 | `references/special-situations.md` | Alcohol, weekends and parties, other smokers at home, weight gain, work stress, driving, heavy smokers, repeated failed attempts, conditions worsened by smoking |
-| `references/country/` | What is actually available and how it's paid for, by country (`romania.md` so far; `_template.md` to add yours) |
+| `references/country/` | What is actually available and how it's paid for, by country (Romania checked in live use; nine more written from official sources and awaiting a check by someone who lives there; `_template.md` to add yours) |
 | `templates/personal-plan.md`, `templates/daily-log.md` | Structuring the plan and the day-by-day count with the person |

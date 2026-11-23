@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.0 — 2026-11-23
+
+Added
+- The local check. On the first day the coach finds out what exists where the person lives (the quitline, which medicines are sold and under what conditions, who pays, the emergency number and a crisis line), from the country file or from official sources, and gives the source and the date. It is described in `references/onboarding.md` and `SKILL.md`, and the plan template has a "Where I live" block for the result.
+- Nine country files, written from official sources on 23 November 2026 and not yet checked by anyone who lives there: Bulgaria, Germany, Hungary, the Netherlands, Poland, Russia, Ukraine, the United Kingdom and the United States. Each lists its sources.
+
+Changed
+- `README.md`: the status table and the contributing note say which country files exist and how far each has been checked.
+
 ## 0.8.4 — 2026-11-23
 
 Changed

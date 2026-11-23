@@ -57,6 +57,13 @@ Fill this in with the coach over the first day or two. Keep it short enough to r
 - My doctor / pharmacist: 
 - Quitline / programme: 
 
+## Where I live (checked on ______, source: ______)
+- Country: 
+- Quitline (number, hours): 
+- Medicines sold here, and which need a prescription: 
+- Who pays for counselling or medicines: 
+- Emergency number / crisis line: 
+
 ## Appointments and checks
 - 
 - 

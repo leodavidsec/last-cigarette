@@ -77,6 +77,8 @@ Find out, conversationally, not as a questionnaire:
 - Whether they drink alcohol at all and, if so, the pattern: for people who drink it is the number-one relapse trigger; for people who do not, never mention it again.
 - Country, daily rhythm (waking, work, shifts, any fasting), and how they want to be coached.
 
+Once you know the country, do the local check (`references/onboarding.md`): read the country file if there is one, look up at official sources what is sold and who to call if you can search, and give the date of anything you report. Never a phone number from memory.
+
 Give them something to do in the same message: a first scheduled cigarette time, a glass of water, moving the pack to another room. Don't make them wait for a plan.
 
 ### 2. Build the plan (same day, or next)
@@ -173,7 +175,7 @@ Read the one you need when you need it; don't load them all at once.
 | `references/motivation-and-identity.md` | Early sessions, low moments, and the "why am I doing this" question |
 | `references/mental-health-and-safety.md` | Any mention of depression, anxiety, medication for mental health, crisis, pregnancy, serious illness; scope boundaries |
 | `references/special-situations.md` | Alcohol, weekends and parties, other smokers at home, weight gain, work stress, driving, heavy smokers, repeated failed attempts, conditions worsened by smoking |
-| `references/country/` | What is actually available and how it's paid for, by country (`romania.md` so far; `_template.md` to add yours) |
+| `references/country/` | What is actually available and how it's paid for, by country (Romania checked in live use; nine more written from official sources and awaiting a check by someone who lives there; `_template.md` to add yours) |
 | `templates/personal-plan.md`, `templates/daily-log.md` | Structuring the plan and the day-by-day count with the person |
 
 
@@ -1037,6 +1039,22 @@ What you need to know by the end of the first day or two, and why:
 | How they want to be coached: strict or gentle, with humour or without, short or detailed, with reminders or not | Tone, and whether you may set alarms |
 | What tools exist: can you check the time, set alarms, remember across conversations | What you can promise |
 
+## The local check
+
+The profile says where the person lives. Before the end of the first day, find out what exists there: a plan built on a medicine that is not sold in their country fails at the pharmacy counter.
+
+1. **Read the country file, if there is one** (`country/`). It is a dated starting point. Prices, stock and who pays change, so say when it was checked, and if you can search, confirm anything the person is about to act on.
+2. **If you can search, look up five things** on official sources (the health ministry, the national medicines agency, the national quitline, WHO's country profile):
+   - the quitline: number, hours, whether it is free;
+   - which stop-smoking medicines are sold (cytisine, varenicline, nicotine replacement, bupropion), under which names, and which need a prescription;
+   - whether counselling or medicines are paid for, and by whom;
+   - the emergency number and a crisis line;
+   - what a pack costs. The person knows this better than any source; ask them.
+3. **If you cannot search, say so.** Describe medicines by category and generic name, and send the person to a pharmacist with one written question: "Which of these do you sell, and which need a prescription?" Ask whether a quitline number is printed on their pack.
+4. **Whichever route you took:** give the source and the date for each thing you report, say what you could not confirm, and write the result into the plan (`templates/personal-plan.md`) so it is not looked up twice. Never give a phone number from memory; a wrong crisis number is worse than none.
+
+Do this after the first useful reply, never instead of it. Nobody waits for help while you look things up.
+
 ## How to ask
 
 - Two or three items at a time, inside useful replies, with the reason: "I ask your age because one of the medicines is not recommended over 65."
@@ -1077,7 +1095,7 @@ This skill grew out of work with adult daily cigarette smokers in Europe. Most o
 
 ## When there is no country file
 
-Only a few countries have a file in `country/`. For everyone else:
+A handful of countries have a file in `country/`; most people live somewhere else. The steps below are the local check from `onboarding.md`, and they apply in full when there is no file:
 
 - Ask where they live. Nothing local can be said without it.
 - If you can search, look up on official sources (health ministry, national medicines agency, the national quitline, WHO country pages): the quitline number, which stop-smoking medicines are sold and under which names, which need a prescription, and the emergency number. Give the source and the date you checked.
@@ -1891,6 +1909,217 @@ Copy this file to `<country>.md`, fill it in **in English** (local medicine and 
 
 ---
 
+<!-- file: references/country/bulgaria.md -->
+
+# Bulgaria — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Cytisine**: in pharmacies, without prescription.
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline** and **bupropion**: WHO's 2024 profile records both as not sold.
+- **Who pays:** the medicines are not covered.
+- **E-cigarettes** are sold to adults (18 and over). WHO's 2024 profile records no flavour ban.
+
+## Programmes and counselling
+
+- **National quit line 0700 10 323.** The sources give no opening hours.
+- **28 consultation offices for stopping smoking** at the Regional Health Inspectorates (РЗИ), with free consultations by health professionals.
+
+## Costs of smoking (for motivation)
+
+About 5.50 leva for 20 of the most sold brand in 2024 (WHO estimate). Bulgaria has used the euro since 1 January 2026; at the fixed rate that is about €2.80, before any rise since. Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- Bulgarian Red Cross psychosocial support line: **0800 114 66**, free.
+- Children and young people: **116 111**, free, day and night.
+
+## Language notes
+
+Medicine and programme names stay as printed, in Cyrillic where the box has them so.
+
+## Sources (read on 23 November 2026)
+
+- National Centre of Public Health and Analyses, leaflet on stopping smoking — https://ncpha.government.bg/uploads/pages/3001/otkaz_cigari.pdf
+- WHO, toll-free quit lines directory — https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-bgr.pdf
+- Lietuvos bankas, Bulgaria joins the euro area on 1 January 2026 — https://www.lb.lt/lt/naujienos/nuo-2026-m-sausio-1-d-bulgarija-tampa-dvidesimt-pirmaja-euro-zonos-nare
+- Find A Helpline, Bulgaria — https://findahelpline.com/countries/bg
+
+
+---
+
+<!-- file: references/country/germany.md -->
+
+# Germany — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Nicotine replacement** (patch, gum, lozenge, spray, inhaler): in pharmacies, without prescription.
+- **Varenicline**: prescription.
+- **Cytisine**: prescription.
+- **Bupropion**: WHO's 2024 profile records it as not sold for stopping smoking.
+- **Who pays:** since 20 August 2025, statutory health insurance pays for nicotine replacement and varenicline under two conditions. A doctor confirms severe tobacco dependence (a Fagerström score of 6 or more, or failing to stop despite a condition such as COPD, asthma or cardiovascular disease), and the person takes part in an evidence-based stop-smoking programme. It is one course of treatment; after a relapse a new entitlement arises no sooner than three years later. Bupropion and cytisine stay excluded, and so does combining nicotine with varenicline. Everyone else pays for the medicines themselves.
+- **E-cigarettes** are sold to adults (18 and over); some flavours are banned.
+
+## Programmes and counselling
+
+- **BIÖG telephone counselling 0800 8 31 31 31**, free. Monday to Thursday 10:00–22:00, Friday to Sunday 10:00–18:00. BIÖG is the federal institute for public health.
+- **rauchfrei-info.de**: a free online stop-smoking programme with daily tips, and a forum with trained volunteer mentors who used to smoke (the "rauchfrei-Lotsen").
+- Courses and digital programmes that count for the insurance rule above are listed by the Zentrale Prüfstelle Prävention and in the BfArM directory of digital health applications (DiGA).
+
+## Costs of smoking (for motivation)
+
+About €8.70 for 20 of the most sold brand in 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- **TelefonSeelsorge 0800 111 0 111**, free, day and night.
+
+## Language notes
+
+Ask whether the person prefers "du" or "Sie". Medicine and programme names stay as printed.
+
+## Sources (read on 23 November 2026)
+
+- BIÖG, press dossier on stopping smoking (2025) — https://www.bioeg.de/fileadmin/user_upload/PDF/medienservice/Themendossier_Rauchstopp_2025_BIOEG.pdf
+- Gemeinsamer Bundesausschuss, decision of 15 May 2025 on medicines for stopping smoking — https://www.g-ba.de/presse/pressemitteilungen-meldungen/1256/
+- aponet.de, the rule in force since 20 August 2025 — https://www.aponet.de/artikel/medikamente-zur-rauchfreiheit-jetzt-auch-auf-kassenrezept-32104
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-deu.pdf
+- Find A Helpline, Germany — https://findahelpline.com/countries/de
+
+
+---
+
+<!-- file: references/country/hungary.md -->
+
+# Hungary — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline**: prescription.
+- **Cytisine**: prescription.
+- **Bupropion**: WHO's 2024 profile records it as not sold for stopping smoking.
+- **Who pays:** the medicines are not covered by health insurance. Counselling in clinics is partly covered.
+- **E-cigarettes** are sold to adults (18 and over); flavours are banned.
+
+## Programmes and counselling
+
+- **06 80 44 20 44** (from abroad +36 80 442 044): free telephone counselling run by the national methodological centre for stop-smoking support (Országos Dohányzás Leszokást Támogató Módszertani Központ).
+- In person: individual and group counselling at pulmonary clinics (tüdőgondozók) and health promotion offices (egészségfejlesztési irodák).
+
+## Costs of smoking (for motivation)
+
+About 2,300 forints for 20 of the most sold brand in July 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- **116-123**, Telefonos Lelki Elsősegély-szolgálat: free from every network, day and night.
+- Under 24: Kék Vonal **116 111**, free, day and night.
+
+## Language notes
+
+Hungarian distinguishes formal and informal address; ask which the person prefers. Medicine and programme names stay as printed.
+
+## Sources (read on 23 November 2026)
+
+- Tolna county government office, notice for the no-smoking day (21 November 2024) — https://kormanyhivatalok.hu/kormanyhivatalok/tolna/megye/hirek/hir/ma-van-ne-gyujts-ra-vilagnap
+- WHO, toll-free quit lines directory — https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-hun.pdf
+- Find A Helpline, Hungary — https://findahelpline.com/countries/hu
+
+
+---
+
+<!-- file: references/country/netherlands.md -->
+
+# Netherlands — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline, bupropion and cytisine**: prescription.
+- **Who pays:** basic health insurance pays in full for stop-smoking counselling (personal coaching or group training), and no deductible (eigen risico) applies. Nicotine patches, nicotine gum and prescription medicines are paid for only together with counselling. The provider has to have a contract with the person's insurer, and the route starts with the GP (huisarts) or a registered coach.
+- The government describes acupuncture, laser therapy and hypnotherapy as not proven to work; some supplementary policies pay for them anyway.
+- **E-cigarettes** are sold to adults (18 and over); flavoured e-liquids are banned, and use is banned in indoor public places, workplaces and public transport.
+
+## Programmes and counselling
+
+- **Stoplijn 0800-1995**, free.
+- **ikstopnu.nl**: practical tips, information and advice on stopping and staying stopped.
+- Some employers offer a stop-smoking programme; it is worth asking.
+
+## Costs of smoking (for motivation)
+
+About €12.50 for 20 of the most sold brand in 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- **113 Zelfmoordpreventie: call 113**, free, day and night; online chat as well.
+
+## Language notes
+
+Ask whether the person prefers "je" or "u". Medicine and programme names stay as printed.
+
+## Sources (read on 23 November 2026)
+
+- Rijksoverheid, help with stopping smoking — https://www.rijksoverheid.nl/onderwerpen/roken/vraag-en-antwoord/hulp-bij-stoppen-met-roken
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-nld.pdf
+- Find A Helpline, Netherlands — https://findahelpline.com/countries/nl
+
+
+---
+
+<!-- file: references/country/poland.md -->
+
+# Poland — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Cytisine is sold without prescription.** The manufacturer of Desmoxan (cytisine 1.5 mg, a 25-day course) lists it as an over-the-counter medicine. WHO's 2024 profile records cytisine in Poland as prescription-only; the two disagree, so go by the product in hand and the pharmacist.
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline** and **bupropion**: prescription.
+- **Who pays:** WHO records none of the medicines as covered. Counselling in clinics is covered where it is offered.
+- **E-cigarettes** are sold to adults (18 and over). WHO's 2024 profile records no flavour ban.
+
+## Programmes and counselling
+
+- **Telefoniczna Poradnia Pomocy Palącym: 801 108 108 and 22 211 80 15** (at the National Institute of Oncology in Warsaw). Monday to Friday 11:00–19:00, Saturday 9:00–15:00.
+- jakrzucicpalenie.pl is the website given for the service in WHO's quitline directory.
+- A prevention programme for tobacco-related diseases (Program profilaktyki chorób odtytoniowych) is described on the patient portal for adult smokers, aimed mostly at ages 40–65.
+
+## Costs of smoking (for motivation)
+
+About 19.50 zloty for 20 of the most sold brand in 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- **116 123** (116sos.pl), free, day and night.
+- Centrum Wsparcia **800 70 2222** (hours not stated in the directory).
+- Children and young people: **116 111**, day and night.
+
+## Language notes
+
+Polish distinguishes formal address (Pan, Pani) from first-name terms; ask which the person prefers. Medicine and programme names stay as printed.
+
+## Sources (read on 23 November 2026)
+
+- pacjent.gov.pl, stopping smoking — https://pacjent.gov.pl/print/pdf/node/1413
+- Aflofarm, Desmoxan product page — https://aflofarm.com.pl/en/products/otc/desmoxan-tablets/
+- WHO, toll-free quit lines directory — https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-pol.pdf
+- Find A Helpline, Poland — https://findahelpline.com/countries/pl
+
+
+---
+
 <!-- file: references/country/romania.md -->
 
 # Romania — what is available (verified November 2026; re-check before relying on prices or programme details)
@@ -1930,6 +2159,178 @@ A pack of cigarettes costs around 30–35 lei in 2026. At a pack a day: about 1,
 ## Language and cultural notes
 
 People often write without diacritics and with typing errors on a phone. Answer in Romanian, briefly, and never correct spelling. Medicine and programme names stay as printed locally.
+
+
+---
+
+<!-- file: references/country/russia.md -->
+
+# Russia — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Cytisine**: in pharmacies, without prescription.
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline**: prescription.
+- **Bupropion**: WHO's 2024 profile records it as not sold.
+- **Who pays:** the medicines are not covered. Stop-smoking support in primary care clinics and hospitals is recorded as available in most of them and covered.
+- **E-cigarettes** are sold to adults (18 and over); some flavours are banned, and use is banned in indoor public places, workplaces and public transport.
+
+## Programmes and counselling
+
+- **8-800-200-0-200**: the national quit line listed in WHO's directory. A regional prevention centre's leaflet describes it as free and open round the clock. The Ministry of Health's own page could not be read when this file was written, so confirm that the line answers before relying on it.
+
+## Costs of smoking (for motivation)
+
+About 233 roubles for 20 of the most sold brand in 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- Emergency psychological help line of EMERCOM: **+7 (495) 989-50-50**, free, day and night.
+- Children and young people: **8-800-2000-122**.
+
+## Language notes
+
+Russian distinguishes formal and informal address; ask which the person prefers. Medicine names stay as printed on the box.
+
+## Sources (read on 23 November 2026)
+
+- WHO, toll-free quit lines directory — https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines
+- Republican Centre for Medical Prevention (Buryatia), leaflet on stopping smoking — https://med-b-kabanskaya-r81.gosweb.gosuslugi.ru/netcat_files/107/224/Otkazat_sya_ot_kureniya_kak_ChB.pdf
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-rus.pdf
+- Find A Helpline, Russia — https://findahelpline.com/countries/ru
+
+
+---
+
+<!-- file: references/country/ukraine.md -->
+
+# Ukraine — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Cytisine**: in pharmacies, without prescription.
+- **Nicotine replacement**: in pharmacies, without prescription.
+- **Varenicline**: prescription.
+- **Bupropion**: WHO's 2024 profile records it as not sold.
+- **Who pays:** nothing is covered. Stop-smoking support exists in some primary care clinics.
+- **E-cigarettes** are sold to adults (18 and over); characterising flavours are banned, and use is banned in indoor public places, workplaces and public transport.
+
+## Programmes and counselling
+
+- **stopsmoking.org.ua** ("Я кидаю курити"), run by the Public Health Center of the Ministry of Health and updated in February 2024: tests of dependence, a step-by-step personal plan that covers relapses, advice for family and friends. Free.
+- **Quit line 0 800 50 55 60.** It opened in 2017 (free from landlines and mobiles, Monday to Friday 9:00–15:00 at the time) and is listed in WHO's directory. The service's website showed no phone number when this file was written. Say that it may not answer, and check before relying on it.
+- The war can interrupt services, opening hours and supply. Ask what is reachable where the person is.
+
+## Costs of smoking (for motivation)
+
+About 110 hryvnias for 20 of the most sold brand in July 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **112** — emergencies.
+- Children and young people: national hotline **0 800 500 225**, free.
+- For adults, look up a current line at findahelpline.com; the listing changes.
+
+## Language notes
+
+Ask which language the person prefers and answer in it; never assume. Medicine names stay as printed on the box.
+
+## Sources (read on 23 November 2026)
+
+- Ministry of Health of Ukraine, the stop-smoking website updated (14 February 2024) — https://moz.gov.ua/uk/v-ukraini-onovleno-sajt-jakij-dopomagae-kinuti-kuriti
+- Government of Ukraine, hotline for smokers launched (20 June 2017) — https://www.kmu.gov.ua/news/250084025
+- WHO, toll-free quit lines directory — https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-ukr.pdf
+- Find A Helpline, Ukraine — https://findahelpline.com/countries/ua
+
+
+---
+
+<!-- file: references/country/united-kingdom.md -->
+
+# United Kingdom — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **NHS stop smoking services supply the medicines.** The NHS lists nicotine replacement (patches, gum, lozenges, inhalators, mouth and nasal sprays), varenicline, cytisinicline (the UK name for cytisine) and bupropion (Zyban) as the stop-smoking medicines available through its services.
+- **Nicotine replacement** is also sold without prescription, in pharmacies and ordinary shops.
+- **Varenicline, cytisinicline and bupropion** are prescription medicines. Costs are partly covered.
+- **Nicotine vapes** are legal for adults (18 and over). They are not licensed medicines, so they cannot be prescribed; the NHS says a local service may offer a free starter pack. Single-use (disposable) vapes have been banned from sale since 1 June 2025.
+
+## Programmes and counselling
+
+- **Local NHS stop smoking services are free.** A GP, pharmacist or health visitor can refer; each nation also has its own finder (below).
+- England: Smokefree National Helpline **0300 123 1044**; nhs.uk/better-health/quit-smoking.
+- Scotland: Quit Your Way Scotland **0800 84 84 84** (free).
+- Wales: Help Me Quit **0800 085 2219** (free); helpmequit.wales.
+- Northern Ireland: stopsmokingni.info. The NHS page gives no helpline number for it.
+
+## Costs of smoking (for motivation)
+
+About £13.40 for 20 of the most sold brand in 2024 (WHO estimate). Ask the person what they pay now.
+
+## Emergency and crisis
+
+- **999** — emergencies.
+- **Samaritans 116 123**, free, day and night.
+
+## Language notes
+
+British names: "cytisinicline" for cytisine, "inhalator" for the nicotine inhaler, "GP" for the family doctor.
+
+## Sources (read on 23 November 2026)
+
+- NHS, NHS stop smoking services help you quit — https://www.nhs.uk/content-widgets/live-well/quit-smoking/nhs-stop-smoking-services-help-you-quit
+- NHS, UK quit smoking services — https://www.nhs.uk/better-health/quit-smoking/uk-quit-smoking-services/
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-gbr.pdf
+- UK Government, single-use vapes banned from 1 June 2025 — https://www.gov.uk/government/news/single-use-vapes-banned-from-1-june-2025
+- Find A Helpline, United Kingdom — https://findahelpline.com/countries/gb
+
+
+---
+
+<!-- file: references/country/united-states.md -->
+
+# United States — what is available (written from official sources on 23 November 2026; not yet checked by someone who lives there)
+
+## Medication
+
+- **Nicotine patch, gum and lozenge** are sold without prescription, including in ordinary shops. **Nicotine nasal spray and inhaler** need a prescription.
+- **Varenicline** and **bupropion** need a prescription.
+- **Cytisine (cytisinicline) is not sold in the United States.** In June 2026 the FDA declined to approve it for now (a complete response letter about a manufacturing site and the labelling, not about whether it works). The company plans to resubmit; approval is not expected before 2027. Do not suggest it, and steer people away from websites that offer to ship it.
+- **E-cigarettes** are sold to people aged 21 and over. CDC's quitting pages do not list them among the quit-smoking medicines.
+- **Who pays:** CDC says many treatments may be free or covered by insurance. Some state quitlines give free or reduced-cost medicines. It differs by state and by plan, so the person has to ask their plan or their state quitline.
+
+## Programmes and counselling
+
+- **1-800-QUIT-NOW (1-800-784-8669)**: free, confidential coaching; the call is routed to the caller's state quitline.
+- Spanish: **1-855-DÉJELO-YA (1-855-335-3569)**. Mandarin and Cantonese: 1-800-838-8917. Korean: 1-800-556-5564. Vietnamese: 1-800-778-8440.
+- Text **QUITNOW to 333888** (Spanish: DÉJELOYA to 333888). Message and data rates may apply.
+- smokefree.gov, cdc.gov/quit, the quitSTART app. What each state's quitline offers: map.naquitline.org.
+
+## Costs of smoking (for motivation)
+
+About $8.91 for 20 of the most sold brand in 2024 (WHO estimate). Prices differ from state to state, so ask the person what they pay.
+
+## Emergency and crisis
+
+- **911** — emergencies.
+- **988 Suicide & Crisis Lifeline**: call or text 988, at any hour. Veterans: 988, then press 1.
+- Crisis Text Line: text HOME to 741741, at any hour.
+
+## Language notes
+
+Ask which language the person prefers; quitlines exist in Spanish and in several Asian languages (above). The legal age for buying tobacco and e-cigarettes is 21.
+
+## Sources (read on 23 November 2026)
+
+- CDC, quitlines and other cessation support resources — https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html
+- CDC, how to quit smoking — https://www.cdc.gov/tobacco/about/how-to-quit.html
+- North American Quitline Consortium, cytisinicline application delayed (23 June 2026) — https://www.naquitline.org/news/729807/Cytisinicline-NDA-Delayed-Achieve-Targets-Resubmission-and-2027-Approval-Timeline.htm
+- WHO, Tobacco 2025 country profile (situation at 31 December 2024) — https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-usa.pdf
+- Find A Helpline, United States — https://findahelpline.com/countries/us
 
 
 ---
@@ -2029,6 +2430,13 @@ Fill this in with the coach over the first day or two. Keep it short enough to r
 - One friend who knows: 
 - My doctor / pharmacist: 
 - Quitline / programme: 
+
+## Where I live (checked on ______, source: ______)
+- Country: 
+- Quitline (number, hours): 
+- Medicines sold here, and which need a prescription: 
+- Who pays for counselling or medicines: 
+- Emergency number / crisis line: 
 
 ## Appointments and checks
 - 

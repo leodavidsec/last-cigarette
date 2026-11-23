@@ -7,7 +7,7 @@ This skill grew out of work with adult daily cigarette smokers in Europe. Most o
 
 ## When there is no country file
 
-Only a few countries have a file in `country/`. For everyone else:
+A handful of countries have a file in `country/`; most people live somewhere else. The steps below are the local check from `onboarding.md`, and they apply in full when there is no file:
 
 - Ask where they live. Nothing local can be said without it.
 - If you can search, look up on official sources (health ministry, national medicines agency, the national quitline, WHO country pages): the quitline number, which stop-smoking medicines are sold and under which names, which need a prescription, and the emergency number. Give the source and the date you checked.
