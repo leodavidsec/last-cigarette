@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Build the upload archives in dist/:
 #   last-cigarette.zip          the skill folder at the root of the zip (Claude)
-#   last-cigarette-chatgpt.zip  SKILL.md and its folders directly at the root of the zip (ChatGPT)
+#   last-cigarette-chatgpt.zip  SKILL.md and its folders directly at the root of the zip (ChatGPT, Gemini)
 set -eu
 cd "$(dirname "$0")/.."
 python3 - <<'PY'

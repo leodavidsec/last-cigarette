@@ -6,7 +6,7 @@ A ready-made archive is kept in this repository:
 
 - `dist/last-cigarette.zip` — for Claude: the zip contains the folder `last-cigarette/`
   (direct link: https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette.zip)
-- `dist/last-cigarette-chatgpt.zip` — for ChatGPT: `SKILL.md` and its folders sit directly at the root of the zip
+- `dist/last-cigarette-chatgpt.zip` — the flat archive, for ChatGPT and Gemini: `SKILL.md` and its folders sit directly at the root of the zip
   (direct link: https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette-chatgpt.zip)
 - `dist/last-cigarette.prompt.md` — the whole skill as one text file, for assistants without skill support
 
@@ -46,18 +46,52 @@ git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-ci
 
 For one repository only, clone into `.agents/skills/last-cigarette` at its root. Restart Codex if the skill does not appear.
 
-## Any other assistant (Gemini, local models, a custom GPT)
+## Gemini app (web, mobile, Mac)
 
-Paste the contents of `dist/last-cigarette.prompt.md` into the system prompt, the custom instructions, or the first message of the conversation. It is long; use a model with a large context window.
+Written from Google's help page; not yet tried by anyone. You must be signed in and 18 or over.
+
+1. Download `dist/last-cigarette-chatgpt.zip` (the flat archive). Google asks for `SKILL.md` in the main folder of the upload and does not say whether a wrapping folder is accepted.
+2. On gemini.google.com open **Customize** in the sidebar (or **More > Customize**), then **Skills**.
+3. Click **Create**, then **Upload**, choose the zip, and click **Upload**.
+4. Review what Gemini shows and click **Create**.
+
+Gemini Enterprise has its own page: **Skills**, the add icon, **Upload skill**, **Import**. Its documentation accepts either archive in `dist/`.
+
+## Gemini CLI
+
+```bash
+git clone https://github.com/leodavidsec/last-cigarette ~/.gemini/skills/last-cigarette
+```
+
+For one project only, clone into `.gemini/skills/last-cigarette` inside it. Gemini CLI also reads `~/.agents/skills/`, so a clone made for Codex is picked up as well. Not yet tried.
+
+## Grok
+
+- **Grok Build (the coding agent):** `git clone https://github.com/leodavidsec/last-cigarette ~/.grok/skills/last-cigarette`. It also reads `~/.agents/skills/`. Not yet tried.
+- **Grok app (grok.com, iOS, Android):** xAI says a skill can be created by uploading a file, but does not publish the format it expects. Try the flat archive `dist/last-cigarette-chatgpt.zip`; if it is refused, upload or paste `dist/last-cigarette.prompt.md`. Not yet tried; if you do, please open an issue saying what worked.
+
+## Any other assistant (local models, a custom GPT, a Gem, an API call)
+
+Paste the contents of `dist/last-cigarette.prompt.md` into the system prompt, the custom instructions, or the first message of the conversation, or attach it as a file and ask the assistant to follow it. It is long (about 190 KB of text); use a model with a large context window. An assistant used this way has every reference in view at once, which costs more per message than a skill does.
+
+## One clone for several coding agents
+
+`~/.agents/skills/` is read by Codex, Gemini CLI and Grok Build. If you use more than one of them:
+
+```bash
+git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-cigarette
+```
 
 ## For AI agents installing this skill on someone's behalf
 
 Follow these steps exactly and do not change any file.
 
-1. Work out which host you are running in (Claude Code, Codex, or another agent with a skills directory). If you cannot write to the user's skills directory, stop and give the user the upload steps for their assistant from this file.
+1. Work out which host you are running in (Claude Code, Codex, Gemini CLI, Grok Build, or another agent with a skills directory). If you cannot write to the user's skills directory, stop and give the user the upload steps for their assistant from this file.
 2. Choose the destination:
    - Claude Code: `~/.claude/skills/last-cigarette`
    - Codex: `~/.agents/skills/last-cigarette`
+   - Gemini CLI: `~/.gemini/skills/last-cigarette`
+   - Grok Build: `~/.grok/skills/last-cigarette`
    - Another host: its documented user skills directory, in a folder named exactly `last-cigarette`.
 3. If the destination already exists, ask the user before replacing it. If an older skill named `quit-smoking-coach` is installed, tell the user to remove it: it is the same skill under its former name.
 4. Run: `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette-chatgpt.zip` (files at the root of the archive) and extract it into `<destination>` so that `<destination>/SKILL.md` exists.
@@ -77,4 +111,4 @@ Start a new conversation and write: "I want to stop smoking. Where do we start?"
 
 ## For maintainers
 
-After any change to the skill, run `scripts/build_prompt.sh` and `scripts/package.sh` and commit the three files they rewrite in `dist/`. The two archives differ only in layout: Claude expects the skill folder at the root of the zip, ChatGPT expects `SKILL.md` there.
+After any change to the skill, run `scripts/build_prompt.sh` and `scripts/package.sh` and commit the three files they rewrite in `dist/`. The two archives differ only in layout: Claude expects the skill folder at the root of the zip, ChatGPT expects `SKILL.md` there. Before adding a host to this file, read its own documentation, and say in its section whether anyone has tried the steps.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.2 — 2026-11-23
+
+Added
+- `INSTALL.md`: sections for the Gemini app, Gemini Enterprise, Gemini CLI, Grok Build and the Grok app, written from each vendor's documentation and marked as not yet tried; a note that `~/.agents/skills/` serves Codex, Gemini CLI and Grok Build with one clone.
+
 ## 0.8.1 — 2026-11-23
 
 Added

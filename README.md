@@ -33,6 +33,8 @@ Step-by-step instructions for every assistant, including a section written for A
 - **Claude Code:** `git clone https://github.com/leodavidsec/last-cigarette ~/.claude/skills/last-cigarette`
 - **ChatGPT** (workspaces that have Skills): upload `dist/last-cigarette-chatgpt.zip` under Plugins > Skills > Create.
 - **Codex:** `git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-cigarette`
+- **Gemini app:** upload `dist/last-cigarette-chatgpt.zip` under Customize > Skills > Create > Upload. **Gemini CLI:** clone into `~/.gemini/skills/last-cigarette`.
+- **Grok Build:** clone into `~/.grok/skills/last-cigarette`. The Grok app is covered in INSTALL.md.
 - **Anything else:** paste `dist/last-cigarette.prompt.md` as the system prompt or custom instructions.
 
 **Which model.** This skill carries knowledge, not capability. It was developed and used in conversations with Anthropic's Claude (most recently in the Fable 5.2 configuration), and that is the only model it has been used with. Expect similar behaviour only from the most capable tier of a provider: at the time of writing, for example, Claude Fable 5.2 or Opus 5.5, or OpenAI's GPT-5.6 Sol or GPT-6 Astra. Those OpenAI models are named as examples of the tier, not as tested. With smaller or local models, replies get longer, the count and the clock get less reliable, and tone is read less well; `references/response-patterns.md` exists for them, but for something that touches health, use the best model you can.
@@ -46,13 +48,13 @@ Step-by-step instructions for every assistant, including a section written for A
 | Waterpipe, smokeless tobacco, vapes, other products | Written from WHO and Cochrane sources; not yet used with anyone |
 | Minors, older adults, pregnancy | Written; routes to clinicians; not yet used with anyone |
 | People who fast, people who do not drink, shift workers | Written; not yet used with anyone |
-| Models other than Claude | Upload into ChatGPT checked once; the coaching itself not tested there |
+| Models other than Claude | Upload into ChatGPT checked once. Steps for Gemini and Grok are written from their documentation and have not been tried. The coaching itself has not been tested outside Claude |
 
 If you belong to one of the untested rows and try it, an issue describing what went wrong is the most useful contribution there is. Country files (`references/country/_template.md`) and reviews by clinicians are the next most useful.
 
 ## Status
 
-Version 0.8.1. Honest state of things:
+Version 0.8.2. Honest state of things:
 
 - Used live by one person so far (the author, during his own attempt, which is still in progress). That is where most of the content was tested and corrected. One person is not evidence that it works.
 - It is not the first of its kind. Other public skills exist for this (a quit tracker with cravings support and a health timeline; a clinician-facing 5As counselling skill). What this one adds is depth: medication literacy taken from leaflets, scheduled reduction, bargaining, lapse scripts, a strict ledger and clock, safety routing, country files, and rules that each come from a mistake made in live use.
