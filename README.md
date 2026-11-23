@@ -23,7 +23,7 @@
 
 **Stop smoking, vaping or any nicotine with an AI coach at your side, day by day.** `last-cigarette` is a free, open, evidence-based [Agent Skill](https://agentskills.io) for Claude. It also installs in ChatGPT, Gemini, Codex and Grok, and works as a single prompt with any other capable assistant.
 
-It turns an AI assistant into the kind of trained adviser you would get on a good quitline, awake at 6 a.m. when the coffee is half-drunk and the hand is reaching for the pack. It builds a quit plan with you, keeps the count and the clock, explains the stop-smoking medicines, stays with you through a craving, and treats a slip as information, not failure.
+It turns an AI assistant into the kind of trained adviser you would get on a good quitline, awake at 6 a.m. when your first coffee is half finished and your hand is reaching for the pack. It builds a quit plan with you, keeps the count and the clock, explains the stop-smoking medicines, stays with you through a craving, and treats a slip as information, not failure.
 
 It is not a doctor, and it says so. It is free, and it stays free. If it helps you: [the pack you didn't buy](#the-pack-you-didnt-buy).
 
@@ -31,7 +31,7 @@ It is not a doctor, and it says so. It is free, and it stays free. If it helps y
 
 People who have stopped mostly talk about small things. Reaching the top of a steep hill and noticing they never ran out of breath. Cold air that no longer hurts. Food that has its taste back. Smelling their own perfume. Holding a note longer when they sing. A film watched to the end, a dinner nobody had to step away from. And, years later, still being glad that they do not *have to* smoke.
 
-The big things arrive quietly. A body that is yours again. Whole days, no longer cut into pieces by the next cigarette. And time: stop at forty and you get back, on average, about nine years of life. At fifty, about six. Even at sixty, about three.
+The big things arrive quietly. A body that is yours again. Whole days, no longer cut into pieces by the next cigarette. And time: stop at forty and you get back, on average, about nine years of life. At fifty, about six. Even at sixty, about three. Those years are not only yours. They belong just as much to your family, and to everyone who wants you around.
 
 That is what this project is for. It is not about willpower, and never about shame. It is about a person getting their life back, and not having to do it alone.
 
@@ -194,11 +194,11 @@ last-cigarette/                   # repository and skill share the name
 
 I built `last-cigarette` while stopping after thirty years and two packs a day. It is free, and it will stay free.
 
-If it helps you through a craving, a hard evening, or all the way out, and you feel like saying thanks, I would be grateful for the price of one pack you never bought. One is plenty.
+Most of what stopping gives back has no price. Breath for the stairs. The taste of food. Mornings without the cough. Days that belong to you. And time with your family and the people you love: the evenings you stay for, the moments you would have missed, the years you were not going to have.
+
+The packs you never buy are the one part with a price on it, and that money stays in your pocket. If `last-cigarette` helps you through a craving, a hard evening, or all the way out, and you feel like saying thanks, I would be grateful for the price of one pack you never bought. One is plenty.
 
 [![Send a pack's worth on Revolut](https://img.shields.io/badge/Send%20a%20pack%27s%20worth-Revolut-191C1F?style=for-the-badge&logo=revolut&logoColor=white)](https://revolut.me/alexan9wr)
-
-Every other pack you never buy is money that stays in your pocket, and money is the smallest part of what comes back. Breath for the stairs. The taste of food. Mornings without the cough. Days that belong to you. And years you were not going to have.
 
 If you can't spare it, you owe nothing. You were the point of all this. Stay free.
 
