@@ -100,6 +100,10 @@ Follow these steps exactly and do not change any file.
 
 Do not run any script from this repository during installation; none is needed. `scripts/` holds build tools for maintainers only.
 
+## Which model
+
+This skill carries knowledge, not capability. It was developed and used in conversations with Anthropic's Claude (most recently in the Fable 5.2 configuration), and that is the only model it has been used with. Expect similar behaviour only from the most capable tier of a provider: at the time of writing, for example, Claude Fable 5.2 or Opus 5.5, or OpenAI's GPT-5.6 Sol or GPT-6 Astra. Those OpenAI models are named as examples of the tier, not as tested. With smaller or local models, replies get longer, the count and the clock get less reliable, and tone is read less well; `references/response-patterns.md` exists for them, but for something that touches health, use the best model you can.
+
 ## Checking that it works
 
 Start a new conversation and write: "I want to stop smoking. Where do we start?" The assistant should say in a sentence that it is an AI coach and not a doctor, ask a few questions about what and how much you smoke, and give you one thing to do today.

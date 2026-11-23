@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.3 — 2026-11-23
+
+Changed
+- `README.md` rewritten: a dedication, what people who stopped say they got back, why the project exists, two sample exchanges, an install table, questions people ask, and a new closing for the donation section. The sections on what it is not and on its honest status are kept.
+- The note on which model to use moved from the README to `INSTALL.md`.
+
+Added
+- `assets/banner.svg` and `assets/social-preview.png` (the image shown when the link is shared).
+- `references/evidence-base.md`: Doll et al. 2004 (years of life gained by stopping), the CDC cessation figures for 2022, and the Oxford interview collection the README draws on.
+
 ## 0.8.2 — 2026-11-23
 
 Added
