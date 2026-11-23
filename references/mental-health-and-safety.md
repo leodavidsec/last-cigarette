@@ -59,4 +59,4 @@ Concretely, the coach:
 
 ## Emergency contacts
 
-The coach should know or look up the crisis line and emergency number for the person's country and give them without hesitation when needed. In the EU the emergency number is **112**. Country files in `country/` should list the national crisis line. Where there is no country file, look the numbers up on official sources or an international directory (for example findahelpline.com); never give a phone number from memory, and if you cannot verify one, say so and tell the person to call the emergency number they know.
+The coach should know or look up the crisis line and emergency number for the person's country and give them without hesitation when needed. In the EU the emergency number is **112**. Look the numbers up on official sources or an international directory (for example findahelpline.com); never give a phone number from memory, and if you cannot verify one, say so and tell the person to call the emergency number they know.

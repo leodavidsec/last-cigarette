@@ -32,17 +32,16 @@ What you need to know by the end of the first day or two, and why:
 
 ## The local check
 
-The profile says where the person lives. Before the end of the first day, find out what exists there: a plan built on a medicine that is not sold in their country fails at the pharmacy counter.
+The profile says where the person lives. Before the end of the first day, find out what exists there: a plan built on a medicine that is not sold in their country fails at the pharmacy counter. This skill keeps no list of countries, on purpose. Such lists go out of date, and what you find belongs in this person's plan.
 
-1. **Read the country file, if there is one** (`country/`). It is a dated starting point. Prices, stock and who pays change, so say when it was checked, and if you can search, confirm anything the person is about to act on.
-2. **If you can search, look up five things** on official sources (the health ministry, the national medicines agency, the national quitline, WHO's country profile):
-   - the quitline: number, hours, whether it is free;
-   - which stop-smoking medicines are sold (cytisine, varenicline, nicotine replacement, bupropion), under which names, and which need a prescription;
-   - whether counselling or medicines are paid for, and by whom;
-   - the emergency number and a crisis line;
-   - what a pack costs. The person knows this better than any source; ask them.
-3. **If you cannot search, say so.** Describe medicines by category and generic name, and send the person to a pharmacist with one written question: "Which of these do you sell, and which need a prescription?" Ask whether a quitline number is printed on their pack.
-4. **Whichever route you took:** give the source and the date for each thing you report, say what you could not confirm, and write the result into the plan (`templates/personal-plan.md`) so it is not looked up twice. Never give a phone number from memory; a wrong crisis number is worse than none.
+1. **If you can search, read three sources**, then the national ones they point to:
+   - **WHO's tobacco country profile**: which stop-smoking medicines are legally sold (nicotine replacement, bupropion, varenicline, cytisine), whether each needs a prescription, whether costs are covered, whether there is a toll-free quit line, and the rules for e-cigarettes. The 2025 edition is at `https://cdn.who.int/media/docs/default-source/country-profiles/tobacco/gtrc-2025/tobacco-2025-<code>.pdf`, where `<code>` is the country's three-letter ISO code in lower case (`pol`, `deu`, `usa`). It describes the situation at the end of 2024; look for a newer edition.
+   - **WHO's directory of quit lines**: `https://www.who.int/campaigns/world-no-tobacco-day/2021/quitting-toolkit/toll-free-quitlines`. It dates from 2021, so confirm the number and the hours on the service's own site.
+   - **Find A Helpline**: `https://findahelpline.com/countries/<code>` with the two-letter country code (`pl`, `de`, `us`), for the emergency number and the crisis lines.
+2. **Treat the profile as a starting point, not a verdict.** Countries report the data themselves, and it can be wrong or old. Where it disagrees with what a manufacturer, a pharmacy or a health ministry says about a medicine, say that the sources disagree and let the pharmacist settle it.
+3. **Ask the person what only they know**: what a pack costs, whether a quitline number is printed on it, which pharmacy they use.
+4. **If you cannot search, say so.** Describe medicines by category and generic name, and send the person to a pharmacist with one written question: "Which of these do you sell, and which need a prescription?"
+5. **Whichever route you took:** give the source and the date for each thing you report, say what you could not confirm, and write the result into the plan (`templates/personal-plan.md`, "Where I live") so it is not looked up twice. Never give a phone number from memory; a wrong crisis number is worse than none.
 
 Do this after the first useful reply, never instead of it. Nobody waits for help while you look things up.
 

@@ -5,16 +5,14 @@ This skill grew out of work with adult daily cigarette smokers in Europe. Most o
 1. **Ask, do not assume.** What matters is what the person uses, how their days run and what constrains them. Their name, language, country, religion, race or sex tell you none of that and are never a basis for advice.
 2. **Say what you do not know.** A coach who invents a local phone number or a medicine's availability does more harm than one who says "I don't know what is sold where you live; here is how to find out."
 
-## When there is no country file
+## Where the person lives
 
-A handful of countries have a file in `country/`; most people live somewhere else. The steps below are the local check from `onboarding.md`, and they apply in full when there is no file:
+Nothing local can be said until you know the country, so ask. Then do the local check in `onboarding.md`, which names the sources to read and the rules for reporting what you find. In short:
 
-- Ask where they live. Nothing local can be said without it.
-- If you can search, look up on official sources (health ministry, national medicines agency, the national quitline, WHO country pages): the quitline number, which stop-smoking medicines are sold and under which names, which need a prescription, and the emergency number. Give the source and the date you checked.
-- If you cannot search, say so. Describe medicines by category and generic name, and send the person to a pharmacist with a written question: "Which of these do you sell, and which need a prescription?"
-- Never give a phone number from memory. For crisis lines, an international directory such as findahelpline.com lists services by country; for emergencies, the number the person already knows.
+- Look things up at official sources and give the source and the date. If you cannot search, say so, and send the person to a pharmacist with a written question.
+- Never give a phone number from memory.
 - Prices, reimbursement and legal status change often. Date anything you say about them.
-- Offer to help them write a country file for others (`country/_template.md`).
+- What you find goes into this person's plan. It is a note about their situation, not a fact about everyone who lives there.
 
 ## Products other than cigarettes
 

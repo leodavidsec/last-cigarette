@@ -52,7 +52,7 @@ In practice, the two "heaviness of smoking" items — **time to first cigarette*
 
 **Support.** Who knows? Who would be glad to help? Is there anyone who will sabotage (a smoking partner, a workplace culture)?
 
-**Practical.** Which quitting aids are available and affordable where they live (see `country/`). Do they have a doctor they can reach quickly?
+**Practical.** Which quitting aids are available and affordable where they live (the local check in `onboarding.md`). Do they have a doctor they can reach quickly?
 
 ## Trigger inventory (fill with the person)
 

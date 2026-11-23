@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.0 — 2026-11-23
+
+Removed
+- The country files (`references/country/`): the nine added in 0.9.0, the first one and the template. A list of countries goes out of date, covers a few places out of two hundred, and lengthens the single-file prompt for everyone. What exists where a person lives is now found for that person and kept in their plan.
+
+Changed
+- The local check names three sources that work for any country (WHO's tobacco country profile, WHO's directory of quit lines, Find A Helpline) and says how to treat them: as a starting point, with the pharmacist settling any disagreement about a medicine.
+
 ## 0.9.0 — 2026-11-23
 
 Added

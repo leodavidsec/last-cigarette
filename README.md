@@ -112,12 +112,12 @@ It is not a prescriber, not a crisis service, and not a substitute for a doctor,
 
 ## Honest status
 
-Version 0.9.0.
+Version 0.10.0.
 
 | | State |
 |---|---|
 | One adult daily cigarette smoker (the author) | Used live, day by day; the attempt is still in progress |
-| Countries | Romania checked in live use. Nine more files (United Kingdom, United States, Germany, Netherlands, Hungary, Poland, Russia, Ukraine, Bulgaria) written from official sources and not yet checked by anyone who lives there. Everywhere else the coach looks things up at official sources, or says that it cannot |
+| Where you live | The coach looks up what exists in your country at official sources and gives the date. Used live in one country so far; the repository keeps no list of countries |
 | Waterpipe, smokeless tobacco, vapes, other products | Written from WHO and Cochrane sources; not yet used with anyone |
 | Minors, older adults, pregnancy | Written; routes to clinicians; not yet used with anyone |
 | People who fast, people who do not drink, shift workers | Written; not yet used with anyone |
@@ -126,7 +126,7 @@ Version 0.9.0.
 - One person is not evidence that it works. No one knows yet whether this skill improves quit rates; chatbot support in general has early trial evidence.
 - No clinician has reviewed it yet. Medical statements come from the guidelines and leaflets cited in `references/evidence-base.md`. A review by a tobacco-cessation specialist is the next step, and offers are welcome.
 - Twenty-seven test cases are written in `evals/`; they have not yet been run across models.
-- It is not the first of its kind. Other public skills exist (a quit tracker with a health timeline; a clinician-facing counselling skill). What this one adds is depth: medicines read from their leaflets, scheduled reduction, bargaining, lapse scripts, a strict ledger and clock, safety routing, country files, and rules that each come from a mistake made in live use.
+- It is not the first of its kind. Other public skills exist (a quit tracker with a health timeline; a clinician-facing counselling skill). What this one adds is depth: medicines read from their leaflets, scheduled reduction, bargaining, lapse scripts, a strict ledger and clock, safety routing, a check of what exists where you live, and rules that each come from a mistake made in live use.
 
 If you belong to one of the untested rows and try it, an issue describing what went wrong is the most useful contribution there is.
 
@@ -150,9 +150,9 @@ If you want the next person to find it more easily, star the repository.
 
 ## Contributing
 
-All files in this repository are written in English, country files included; local medicine and programme names stay as printed. The coach itself answers in the language of the person it is talking to.
+All files in this repository are written in English; local medicine and programme names stay as printed. The coach itself answers in the language of the person it is talking to.
 
-- **Country files** are the most useful contribution. Check one of the existing files against what is true where you live, or copy `references/country/_template.md`, fill in what is really available and what it costs, date it, and open a pull request.
+- **Reports from real use** are the most useful contribution: open an issue saying what the coach got wrong, in which country and with which assistant.
 - **Reviews by clinicians**, and corrections to the evidence base with a source, are always welcome.
 - Please don't add content that prescribes doses, promises outcomes, or removes safety boundaries.
 
@@ -185,12 +185,7 @@ last-cigarette/                   # repository and skill share the name
 │   ├── lapse-and-relapse.md      # not-a-puff rule, lapse script, relapse
 │   ├── motivation-and-identity.md
 │   ├── mental-health-and-safety.md
-│   ├── special-situations.md     # alcohol, weekends, partner who smokes, comorbidities
-│   └── country/                  # what's actually available, by country
-│       ├── romania.md            # checked in live use
-│       ├── bulgaria.md, germany.md, hungary.md, netherlands.md, poland.md, russia.md,
-│       │   ukraine.md, united-kingdom.md, united-states.md   # from official sources
-│       └── _template.md
+│   └── special-situations.md     # alcohol, weekends, partner who smokes, comorbidities
 ├── templates/
 │   ├── personal-plan.md
 │   └── daily-log.md

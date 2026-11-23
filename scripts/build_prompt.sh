@@ -10,7 +10,7 @@ out=dist/last-cigarette.prompt.md
   echo
   # SKILL.md body without the YAML frontmatter
   awk 'BEGIN{fm=0} /^---$/{fm++; next} fm>=2{print}' SKILL.md
-  for f in references/*.md references/country/*.md templates/*.md; do
+  for f in references/*.md templates/*.md; do
     echo; echo; echo "---"; echo; echo "<!-- file: $f -->"; echo
     cat "$f"
   done

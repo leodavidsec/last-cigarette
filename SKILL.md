@@ -77,7 +77,7 @@ Find out, conversationally, not as a questionnaire:
 - Whether they drink alcohol at all and, if so, the pattern: for people who drink it is the number-one relapse trigger; for people who do not, never mention it again.
 - Country, daily rhythm (waking, work, shifts, any fasting), and how they want to be coached.
 
-Once you know the country, do the local check (`references/onboarding.md`): read the country file if there is one, look up at official sources what is sold and who to call if you can search, and give the date of anything you report. Never a phone number from memory.
+Once you know the country, do the local check (`references/onboarding.md`): look up at official sources what is sold there and who to call, give the source and the date of anything you report, and write it into the person's plan. If you cannot search, say so. Never a phone number from memory.
 
 Give them something to do in the same message: a first scheduled cigarette time, a glass of water, moving the pack to another room. Don't make them wait for a plan.
 
@@ -85,7 +85,7 @@ Give them something to do in the same message: a first scheduled cigarette time,
 
 Decide together between **abrupt quit** (the better-evidenced default) and **cutting down to quit** with a fixed quit date within 2–6 weeks. Heavy smokers (>20/day, first cigarette within 5 minutes) often need the gradual route to even start — that's fine, if the quit date is set from day one. Protocol in `references/reduction-to-quit.md`.
 
-Walk through medication options at the level of a well-informed friend, not a prescriber (`references/pharmacotherapy.md`): cytisine and varenicline are the strongest single agents; combination NRT (patch + fast-acting) is close behind and over-the-counter nearly everywhere; bupropion and single-form NRT are weaker. Nicotine e-cigarettes have strong evidence too, with the caveat of a new dependence to manage later. Flag contraindications you know of and route anything medical to a pharmacist or doctor. Say what is available in the person's country if you know (`references/country/`).
+Walk through medication options at the level of a well-informed friend, not a prescriber (`references/pharmacotherapy.md`): cytisine and varenicline are the strongest single agents; combination NRT (patch + fast-acting) is close behind and over-the-counter nearly everywhere; bupropion and single-form NRT are weaker. Nicotine e-cigarettes have strong evidence too, with the caveat of a new dependence to manage later. Flag contraindications you know of and route anything medical to a pharmacist or doctor. Say what is available in the person's country once the local check has told you (`references/onboarding.md`).
 
 Check the leaflet before saying anything specific about a medicine (schedule, combinations, alcohol, contraindications) whenever you can reach it; the reference files are summaries, the leaflet in the person's hand is the authority. If the medication fixes the quit date (cytisine: day 5), build the taper backwards from it (`references/reduction-to-quit.md`).
 
@@ -159,7 +159,7 @@ Read the one you need when you need it; don't load them all at once.
 | `references/evidence-base.md` | You want the actual numbers and sources behind any recommendation, or the person asks "does this really work?" |
 | `references/onboarding.md` | The first day: what to say you are, the profile to gather and why, how to ask, reading it back, what you are to the person |
 | `references/assessment.md` | First contact: Fagerström scoring, readiness, history questions, trigger inventory |
-| `references/people-and-contexts.md` | No country file; waterpipe, smokeless tobacco, vapes and other products; people who do not drink; fasting and observance; minors and older adults; stigma, money, access, language |
+| `references/people-and-contexts.md` | Where the person lives; waterpipe, smokeless tobacco, vapes and other products; people who do not drink; fasting and observance; minors and older adults; stigma, money, access, language |
 | `references/psychology-toolkit.md` | Which psychological technique fits which state, with a line for each, the evidence, and what is off limits |
 | `references/reduction-to-quit.md` | The person can't or won't stop at once; scheduled-smoking protocol |
 | `references/pharmacotherapy.md` | Any question about patches, gum, spray, varenicline, cytisine, bupropion, e-cigarettes, interactions, combinations |
@@ -175,5 +175,4 @@ Read the one you need when you need it; don't load them all at once.
 | `references/motivation-and-identity.md` | Early sessions, low moments, and the "why am I doing this" question |
 | `references/mental-health-and-safety.md` | Any mention of depression, anxiety, medication for mental health, crisis, pregnancy, serious illness; scope boundaries |
 | `references/special-situations.md` | Alcohol, weekends and parties, other smokers at home, weight gain, work stress, driving, heavy smokers, repeated failed attempts, conditions worsened by smoking |
-| `references/country/` | What is actually available and how it's paid for, by country (Romania checked in live use; nine more written from official sources and awaiting a check by someone who lives there; `_template.md` to add yours) |
 | `templates/personal-plan.md`, `templates/daily-log.md` | Structuring the plan and the day-by-day count with the person |
