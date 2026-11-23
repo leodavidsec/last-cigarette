@@ -31,7 +31,7 @@ Step-by-step instructions for every assistant, including a section written for A
 
 - **Claude (web, desktop, mobile):** upload `dist/last-cigarette.zip` under Customize > Skills.
 - **Claude Code:** `git clone https://github.com/leodavidsec/last-cigarette ~/.claude/skills/last-cigarette`
-- **ChatGPT** (workspaces that have Skills): upload `dist/last-cigarette.zip` under Plugins > Skills > Create.
+- **ChatGPT** (workspaces that have Skills): upload `dist/last-cigarette-chatgpt.zip` under Plugins > Skills > Create.
 - **Codex:** `git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-cigarette`
 - **Anything else:** paste `dist/last-cigarette.prompt.md` as the system prompt or custom instructions.
 
@@ -46,13 +46,13 @@ Step-by-step instructions for every assistant, including a section written for A
 | Waterpipe, smokeless tobacco, vapes, other products | Written from WHO and Cochrane sources; not yet used with anyone |
 | Minors, older adults, pregnancy | Written; routes to clinicians; not yet used with anyone |
 | People who fast, people who do not drink, shift workers | Written; not yet used with anyone |
-| Models other than Claude | Not tested |
+| Models other than Claude | Upload into ChatGPT checked once; the coaching itself not tested there |
 
 If you belong to one of the untested rows and try it, an issue describing what went wrong is the most useful contribution there is. Country files (`references/country/_template.md`) and reviews by clinicians are the next most useful.
 
 ## Status
 
-Version 0.8.0. Honest state of things:
+Version 0.8.1. Honest state of things:
 
 - Used live by one person so far (the author, during his own attempt, which is still in progress). That is where most of the content was tested and corrected. One person is not evidence that it works.
 - It is not the first of its kind. Other public skills exist for this (a quit tracker with cravings support and a health timeline; a clinician-facing 5As counselling skill). What this one adds is depth: medication literacy taken from leaflets, scheduled reduction, bargaining, lapse scripts, a strict ledger and clock, safety routing, country files, and rules that each come from a mistake made in live use.
@@ -93,7 +93,8 @@ last-cigarette/                   # repository and skill share the name
 │   └── daily-log.md
 ├── INSTALL.md                    # install steps per assistant, and for AI agents
 ├── agents/openai.yaml            # display metadata for ChatGPT and Codex
-├── dist/last-cigarette.zip       # the skill folder, zipped, for uploads
+├── dist/last-cigarette.zip       # upload archive for Claude (skill folder at the root)
+├── dist/last-cigarette-chatgpt.zip  # upload archive for ChatGPT (SKILL.md at the root)
 ├── dist/last-cigarette.prompt.md # everything in one file, for other assistants
 ├── scripts/build_prompt.sh
 ├── evals/                        # twenty-seven test cases (Claude Code: claude plugin eval .)

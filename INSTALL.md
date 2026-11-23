@@ -4,8 +4,10 @@
 
 A ready-made archive is kept in this repository:
 
-- `dist/last-cigarette.zip` — the skill folder, zipped, for uploads
+- `dist/last-cigarette.zip` — for Claude: the zip contains the folder `last-cigarette/`
   (direct link: https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette.zip)
+- `dist/last-cigarette-chatgpt.zip` — for ChatGPT: `SKILL.md` and its folders sit directly at the root of the zip
+  (direct link: https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette-chatgpt.zip)
 - `dist/last-cigarette.prompt.md` — the whole skill as one text file, for assistants without skill support
 
 ## Claude (web, desktop, mobile)
@@ -29,12 +31,12 @@ For one project only, clone into `.claude/skills/last-cigarette` inside that pro
 
 Skills in ChatGPT are available to eligible Business, Enterprise, Healthcare and Edu workspaces, and a workspace admin can switch uploading off. If you have them:
 
-1. Download `dist/last-cigarette.zip`.
+1. Download `dist/last-cigarette-chatgpt.zip`. ChatGPT wants `SKILL.md` at the root of the archive; the Claude archive, which wraps everything in a folder, is rejected.
 2. In the sidebar open **Plugins**, then the **Skills** tab.
 3. Select **Create**, then **Upload from your computer**, and choose the zip.
 4. ChatGPT scans the upload. If it is marked **Needs Review**, read what it asks and confirm.
 
-If your plan has no Skills, use the single-file prompt (below). This skill has not been tested in ChatGPT; if the upload is rejected, please open an issue with the message you saw.
+If your plan has no Skills, use the single-file prompt (below). The upload was checked once, on 23 November 2026; how well the coaching itself behaves in ChatGPT has not been tested. If the upload is rejected, please open an issue with the message you saw.
 
 ## Codex (CLI and IDE extension)
 
@@ -58,7 +60,7 @@ Follow these steps exactly and do not change any file.
    - Codex: `~/.agents/skills/last-cigarette`
    - Another host: its documented user skills directory, in a folder named exactly `last-cigarette`.
 3. If the destination already exists, ask the user before replacing it. If an older skill named `quit-smoking-coach` is installed, tell the user to remove it: it is the same skill under its former name.
-4. Run: `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette.zip` and extract it so that `<destination>/SKILL.md` exists.
+4. Run: `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette-chatgpt.zip` (files at the root of the archive) and extract it into `<destination>` so that `<destination>/SKILL.md` exists.
 5. Verify: `<destination>/SKILL.md` exists, its first lines contain `name: last-cigarette`, and `<destination>/references/` is not empty.
 6. Tell the user it is installed, that a new session may be needed, and that the skill is coaching support, not medical advice.
 
@@ -72,3 +74,7 @@ Start a new conversation and write: "I want to stop smoking. Where do we start?"
 
 - Cloned with git: `git pull` inside the skill folder. Delete the folder to remove it.
 - Uploaded: upload the new zip over the old one, or delete the skill in the assistant's skills list.
+
+## For maintainers
+
+After any change to the skill, run `scripts/build_prompt.sh` and `scripts/package.sh` and commit the three files they rewrite in `dist/`. The two archives differ only in layout: Claude expects the skill folder at the root of the zip, ChatGPT expects `SKILL.md` there.

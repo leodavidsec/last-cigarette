@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.1 — 2026-11-23
+
+Added
+- `dist/last-cigarette-chatgpt.zip`: the same skill with `SKILL.md` at the root of the archive. ChatGPT rejects an archive that wraps the skill in a folder; Claude requires that folder. `scripts/package.sh` now builds both.
+
 ## 0.8.0 — 2026-11-23
 
 Added

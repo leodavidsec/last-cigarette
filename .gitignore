@@ -3,3 +3,4 @@
 .DS_Store
 Thumbs.db
 !dist/last-cigarette.zip
+!dist/last-cigarette-chatgpt.zip
