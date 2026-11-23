@@ -1,0 +1,4 @@
+interface:
+  display_name: "Last Cigarette"
+  short_description: "Quit-smoking coach: plan, cravings, slips"
+  default_prompt: "I want to stop smoking. Where do we start?"

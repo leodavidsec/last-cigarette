@@ -27,11 +27,13 @@ Not medical advice. Not a prescriber. Not a crisis service. Not a substitute for
 
 ## Install
 
-**Claude (web, desktop, phone):** download the `.skill` file from Releases (or zip this repository as a folder named `last-cigarette`) and add it under Skills in your Claude settings — skills added on the web are available in the phone app on the same account. Then just talk: "I smoke a pack a day and I want to stop." Exact steps for your plan and platform: https://support.claude.com.
+Step-by-step instructions for every assistant, including a section written for AI agents that install it for you, are in [INSTALL.md](INSTALL.md). In short:
 
-**Claude Code:** `git clone https://github.com/leodavidsec/last-cigarette ~/.claude/skills/last-cigarette` (or clone into `.claude/skills/` inside a project).
-
-**ChatGPT, Gemini, local models and other assistants:** the skill format (`SKILL.md` + reference files) is Claude's, but the content is plain markdown. `dist/last-cigarette.prompt.md` is the whole skill compiled into one file — paste it as a Custom GPT's instructions (and attach the reference files as knowledge), as a Gem's instructions, or as the system prompt of any model. Regenerate it after editing with `scripts/build_prompt.sh`.
+- **Claude (web, desktop, mobile):** upload `dist/last-cigarette.zip` under Customize > Skills.
+- **Claude Code:** `git clone https://github.com/leodavidsec/last-cigarette ~/.claude/skills/last-cigarette`
+- **ChatGPT** (workspaces that have Skills): upload `dist/last-cigarette.zip` under Plugins > Skills > Create.
+- **Codex:** `git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-cigarette`
+- **Anything else:** paste `dist/last-cigarette.prompt.md` as the system prompt or custom instructions.
 
 **Which model.** This skill carries knowledge, not capability. It was developed and used in conversations with Anthropic's Claude (most recently in the Fable 5.2 configuration), and that is the only model it has been used with. Expect similar behaviour only from the most capable tier of a provider: at the time of writing, for example, Claude Fable 5.2 or Opus 5.5, or OpenAI's GPT-5.6 Sol or GPT-6 Astra. Those OpenAI models are named as examples of the tier, not as tested. With smaller or local models, replies get longer, the count and the clock get less reliable, and tone is read less well; `references/response-patterns.md` exists for them, but for something that touches health, use the best model you can.
 
@@ -50,7 +52,7 @@ If you belong to one of the untested rows and try it, an issue describing what w
 
 ## Status
 
-Version 0.7.2. Honest state of things:
+Version 0.8.0. Honest state of things:
 
 - Used live by one person so far (the author, during his own attempt, which is still in progress). That is where most of the content was tested and corrected. One person is not evidence that it works.
 - It is not the first of its kind. Other public skills exist for this (a quit tracker with cravings support and a health timeline; a clinician-facing 5As counselling skill). What this one adds is depth: medication literacy taken from leaflets, scheduled reduction, bargaining, lapse scripts, a strict ledger and clock, safety routing, country files, and rules that each come from a mistake made in live use.
@@ -89,7 +91,10 @@ last-cigarette/                   # repository and skill share the name
 ├── templates/
 │   ├── personal-plan.md
 │   └── daily-log.md
-├── dist/last-cigarette.prompt.md   # everything in one file, for other assistants
+├── INSTALL.md                    # install steps per assistant, and for AI agents
+├── agents/openai.yaml            # display metadata for ChatGPT and Codex
+├── dist/last-cigarette.zip       # the skill folder, zipped, for uploads
+├── dist/last-cigarette.prompt.md # everything in one file, for other assistants
 ├── scripts/build_prompt.sh
 ├── evals/                        # twenty-seven test cases (Claude Code: claude plugin eval .)
 └── CHANGELOG.md

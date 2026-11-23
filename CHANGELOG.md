@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0 — 2026-11-23
+
+Added
+- `INSTALL.md`: exact steps for Claude, Claude Code, ChatGPT, Codex and other assistants, and a procedure for AI agents installing the skill on someone's behalf.
+- `agents/openai.yaml`: display metadata for ChatGPT and Codex.
+- `dist/last-cigarette.zip`, built by `scripts/package.sh`: the skill folder alone, for uploads.
+
+Changed
+- The skill description is shorter (under 200 characters) so that it fits every host's limits.
+
 ## 0.7.2 — 2026-11-23
 
 Removed

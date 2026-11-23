@@ -1,6 +1,6 @@
 ---
 name: last-cigarette
-description: Evidence-based, day-by-day coaching for someone who wants to stop smoking or using tobacco or nicotine (cigarettes, roll-your-own, heated tobacco, waterpipe, smokeless tobacco, vapes). Use this whenever a person says they want to quit or cut down, asks about nicotine patches, gum, varenicline/Champix, cytisine/Tabex/Defumoxan, says they "just smoked" or "want a cigarette right now", reports a slip or relapse, asks how smoking affects a health condition they have, or mentions they are trying to quit while asking about something else (sleep, weight, irritability, cough, constipation). Also use it when a clinician or family member asks how to help a smoker. Do not wait for the word "quit" — "I smoke a pack a day and I get out of breath on the stairs" is a trigger.
+description: Daily coaching to stop smoking, vaping or nicotine, covering the quit plan, cravings, medicines, slips and relapse. Use when someone wants to quit or cut down, just smoked, or craves a cigarette.
 ---
 
 # Last Cigarette: a quit-smoking coach

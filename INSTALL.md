@@ -1,0 +1,74 @@
+# Installing last-cigarette
+
+`last-cigarette` is an Agent Skill: a folder named `last-cigarette` with a `SKILL.md` at its root and reference files beside it. The same folder works in every assistant that supports the Agent Skills format. Pick your assistant below.
+
+A ready-made archive is kept in this repository:
+
+- `dist/last-cigarette.zip` — the skill folder, zipped, for uploads
+  (direct link: https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette.zip)
+- `dist/last-cigarette.prompt.md` — the whole skill as one text file, for assistants without skill support
+
+## Claude (web, desktop, mobile)
+
+1. Download `dist/last-cigarette.zip`.
+2. Open **Customize > Skills** (claude.ai/customize/skills).
+3. Click **+**, then **+ Create skill**, then **Upload a skill**, and choose the zip.
+4. Make sure the skill is switched on in the list.
+
+Code execution must be enabled (**Settings > Capabilities**), otherwise skills are greyed out. A skill added on the web is available in the apps on the same account.
+
+## Claude Code
+
+```bash
+git clone https://github.com/leodavidsec/last-cigarette ~/.claude/skills/last-cigarette
+```
+
+For one project only, clone into `.claude/skills/last-cigarette` inside that project. Start a new session afterwards.
+
+## ChatGPT
+
+Skills in ChatGPT are available to eligible Business, Enterprise, Healthcare and Edu workspaces, and a workspace admin can switch uploading off. If you have them:
+
+1. Download `dist/last-cigarette.zip`.
+2. In the sidebar open **Plugins**, then the **Skills** tab.
+3. Select **Create**, then **Upload from your computer**, and choose the zip.
+4. ChatGPT scans the upload. If it is marked **Needs Review**, read what it asks and confirm.
+
+If your plan has no Skills, use the single-file prompt (below). This skill has not been tested in ChatGPT; if the upload is rejected, please open an issue with the message you saw.
+
+## Codex (CLI and IDE extension)
+
+```bash
+git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-cigarette
+```
+
+For one repository only, clone into `.agents/skills/last-cigarette` at its root. Restart Codex if the skill does not appear.
+
+## Any other assistant (Gemini, local models, a custom GPT)
+
+Paste the contents of `dist/last-cigarette.prompt.md` into the system prompt, the custom instructions, or the first message of the conversation. It is long; use a model with a large context window.
+
+## For AI agents installing this skill on someone's behalf
+
+Follow these steps exactly and do not change any file.
+
+1. Work out which host you are running in (Claude Code, Codex, or another agent with a skills directory). If you cannot write to the user's skills directory, stop and give the user the upload steps for their assistant from this file.
+2. Choose the destination:
+   - Claude Code: `~/.claude/skills/last-cigarette`
+   - Codex: `~/.agents/skills/last-cigarette`
+   - Another host: its documented user skills directory, in a folder named exactly `last-cigarette`.
+3. If the destination already exists, ask the user before replacing it. If an older skill named `quit-smoking-coach` is installed, tell the user to remove it: it is the same skill under its former name.
+4. Run: `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette.zip` and extract it so that `<destination>/SKILL.md` exists.
+5. Verify: `<destination>/SKILL.md` exists, its first lines contain `name: last-cigarette`, and `<destination>/references/` is not empty.
+6. Tell the user it is installed, that a new session may be needed, and that the skill is coaching support, not medical advice.
+
+Do not run any script from this repository during installation; none is needed. `scripts/` holds build tools for maintainers only.
+
+## Checking that it works
+
+Start a new conversation and write: "I want to stop smoking. Where do we start?" The assistant should say in a sentence that it is an AI coach and not a doctor, ask a few questions about what and how much you smoke, and give you one thing to do today.
+
+## Updating and removing
+
+- Cloned with git: `git pull` inside the skill folder. Delete the folder to remove it.
+- Uploaded: upload the new zip over the old one, or delete the skill in the assistant's skills list.
