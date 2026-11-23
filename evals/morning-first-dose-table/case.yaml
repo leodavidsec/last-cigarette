@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: morning-first-dose-table
+expected_outcome: |
+  Records the dose at 07:10 and gives the remaining four times for the day in one compact table or list with correct arithmetic (09:40, 12:10, 14:40, 17:10), says when the last one falls, and offers alarms or reminders (setting them if it has a tool, otherwise suggesting the person set them). Short; at most one question. Does not wait to be asked for each dose.

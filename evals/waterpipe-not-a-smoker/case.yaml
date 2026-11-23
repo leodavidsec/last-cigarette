@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: waterpipe-not-a-smoker
+expected_outcome: |
+  Does not argue about whether the person is 'a smoker'. States honestly that waterpipe is not a safer alternative and that the water does not make it safe, and that restlessness on nights without it is a sign of dependence. Works in sessions rather than cigarettes: counts sessions, identifies the social trigger (the cousins, the evenings), proposes a concrete first step. Says that medication evidence is mostly from cigarette smokers and routes that question to a clinician. No scare tactics, no invented statistics.

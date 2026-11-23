@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: non-drinker-weekend-plan
+expected_outcome: |
+  Builds a concrete plan for the gathering around the real triggers (the end of meals, the offered cigarette, the uncles) with if-then statements and a refusal line in the person's own words, somewhere to go or something to do after eating, and an ally if there is one. Makes no reference to alcohol or drinking at all. Short, practical, warm.

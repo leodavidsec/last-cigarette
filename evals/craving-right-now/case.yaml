@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: craving-right-now
+expected_outcome: |
+  A very short reply (a few lines) usable mid-craving: one or two concrete
+  actions that take under five minutes (e.g. cold water on hands, 4-7-8
+  breathing, delay, move away from the coffee spot), a sentence that the
+  craving peaks and passes in about 3-5 minutes, acknowledgement of day 4,
+  and no lecture, no medication dosing, no long list.

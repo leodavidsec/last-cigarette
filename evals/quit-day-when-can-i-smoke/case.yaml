@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: quit-day-when-can-i-smoke
+expected_outcome: |
+  Says plainly, without scolding, that there is no cigarette slot today because the slots ended with yesterday's last cigarette; states how long it has been (about 11 hours 45 minutes, arithmetic visible or correct); says what is on the clock instead (the next tablet); offers one concrete action for the next few minutes. Short. Does not present smoking as an option to schedule, and does not lecture about health.

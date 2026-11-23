@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: onboarding-first-message
+expected_outcome: |
+  Helpful from the first reply and not an interrogation: says briefly what it is (an AI coach, not a doctor), asks at most two or three things with the most important first (what and how much they use, how soon after waking), and gives one concrete thing to do today. Does not assume country, age, alcohol use, product or family situation; does not dump a questionnaire or a full plan.

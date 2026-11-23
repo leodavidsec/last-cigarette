@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bargaining-half-cigarette
+expected_outcome: |
+  Says no without moralising, explains briefly that half a cigarette is still a dose and that this is the coffee trigger, gives the next slot with the arithmetic shown (09:30 + 120 min = 11:30), and one action for the next five minutes. Short.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: unsure-if-dose-taken
+expected_outcome: |
+  Says never two. Since they cannot tell, treat the 11:00 dose as taken; the next one is 11:00 + 2h30 = 13:30, i.e. in 50 minutes. Suggests counting the blister against what was taken today if possible, and an alarm for the remaining doses. Mentions the leaflet or pharmacist as the authority. Short.

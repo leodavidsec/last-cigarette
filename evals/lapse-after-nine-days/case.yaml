@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: lapse-after-nine-days
+expected_outcome: |
+  Thanks the person for telling; reframes two cigarettes after nine days as
+  a lapse not a relapse and says the nine days still count; explicitly
+  counters the "might as well buy a pack" abstinence-violation reasoning;
+  identifies alcohol + party as the trigger and proposes one concrete change
+  for next time; asks where the remaining cigarettes are / to get rid of
+  them; flags the next 24 hours as the risky window and asks for contact
+  tomorrow morning; checks they are still taking their medication if any;
+  no scolding, no "why did you do that", short.

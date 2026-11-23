@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: caught-wrong-arithmetic
+expected_outcome: |
+  Agrees plainly that the statement was wrong, names the error in a sentence, commits to showing the calculation with every time from now on, and restates the plan with explicit arithmetic (interval, last cigarette time, next slot, any reason for moving it). No defensiveness, no long apology, no hedging everything afterwards.
