@@ -72,7 +72,7 @@ For one project only, clone into `.gemini/skills/last-cigarette` inside it. Gemi
 
 ## Any other assistant (local models, a custom GPT, a Gem, an API call)
 
-Paste the contents of `dist/last-cigarette.prompt.md` into the system prompt, the custom instructions, or the first message of the conversation, or attach it as a file and ask the assistant to follow it. It is long (about 190 KB of text); use a model with a large context window. An assistant used this way has every reference in view at once, which costs more per message than a skill does.
+Attach `dist/last-cigarette.prompt.md` to the conversation and ask the assistant to follow it. If your assistant takes a long system prompt (a local model, an API call), paste the contents there instead. It is long (about 190 KB of text): it will not fit in a short custom-instructions box, and it needs a model with a large context window. An assistant used this way has every reference in view at once, which costs more per message than a skill does.
 
 ## One clone for several coding agents
 
@@ -84,19 +84,24 @@ git clone https://github.com/leodavidsec/last-cigarette ~/.agents/skills/last-ci
 
 ## For AI agents installing this skill on someone's behalf
 
-Follow these steps exactly and do not change any file.
+Follow these steps in order and do not change any file of the skill.
 
-1. Work out which host you are running in (Claude Code, Codex, Gemini CLI, Grok Build, or another agent with a skills directory). If you cannot write to the user's skills directory, stop and give the user the upload steps for their assistant from this file.
-2. Choose the destination:
-   - Claude Code: `~/.claude/skills/last-cigarette`
-   - Codex: `~/.agents/skills/last-cigarette`
-   - Gemini CLI: `~/.gemini/skills/last-cigarette`
-   - Grok Build: `~/.grok/skills/last-cigarette`
-   - Another host: its documented user skills directory, in a folder named exactly `last-cigarette`.
-3. If the destination already exists, ask the user before replacing it. If an older skill named `quit-smoking-coach` is installed, tell the user to remove it: it is the same skill under its former name.
-4. Run: `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette-chatgpt.zip` (files at the root of the archive) and extract it into `<destination>` so that `<destination>/SKILL.md` exists.
-5. Verify: `<destination>/SKILL.md` exists, its first lines contain `name: last-cigarette`, and `<destination>/references/` is not empty.
-6. Tell the user it is installed, that a new session may be needed, and that the skill is coaching support, not medical advice.
+1. **Work out where you are running**: a chat app with a skills screen (Claude, ChatGPT, the Gemini app), a coding agent with a skills directory (Claude Code, Codex, Gemini CLI, Grok Build), or something with neither.
+2. **Check whether the skill is already installed.** Look for `last-cigarette` in the host's list of skills or in its skills directory. If it is there, do not install it again: say so, and go to step 6. If an older skill named `quit-smoking-coach` is installed, tell the user to remove it; it is the same skill under its former name.
+3. **Choose the route.**
+   - Chat app: you usually cannot upload a skill for the user. Give them the upload steps for their app from this file and the right archive: `dist/last-cigarette.zip` for Claude, `dist/last-cigarette-chatgpt.zip` for ChatGPT and Gemini.
+   - Coding agent: the destination is the host's user skills directory, in a folder named exactly `last-cigarette`:
+     - Claude Code: `~/.claude/skills/last-cigarette`
+     - Codex: `~/.agents/skills/last-cigarette`
+     - Gemini CLI: `~/.gemini/skills/last-cigarette`
+     - Grok Build: `~/.grok/skills/last-cigarette`
+   - Neither, or importing is not possible in this session: point the user to `dist/last-cigarette.prompt.md` and say plainly that it is the fallback.
+4. **Install** (coding agents): `git clone https://github.com/leodavidsec/last-cigarette <destination>`. Without git, download `dist/last-cigarette-chatgpt.zip` (files at the root of the archive) and extract it into `<destination>` so that `<destination>/SKILL.md` exists. If the destination already exists, ask the user before replacing it.
+5. **Check the files**: `<destination>/SKILL.md` exists, its first lines contain `name: last-cigarette`, and `<destination>/references/` is not empty.
+6. **Check that it can be used, and say exactly what you checked.** These are three different things: the files are on disk; the skill appears in the host's list of skills; the skill was used in a new conversation (the test under "Checking that it works"). Where you can start a new session (a desktop app, a CLI), do the third. Report which of the three you did and which you did not. Files on disk, or a line in a list, do not show that the skill is available in every interface of the same product: a phone app or a voice mode may differ.
+7. **Tell the user** what you verified, that a new session may be needed, and that the skill is coaching support, not medical advice.
+
+Installing is the whole job. Do not create logs, schedules, reminders or memory entries as part of it; the coach offers those later, and only when the person asks.
 
 Do not run any script from this repository during installation; none is needed. `scripts/` holds build tools for maintainers only.
 

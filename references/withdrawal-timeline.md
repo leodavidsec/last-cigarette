@@ -15,7 +15,7 @@ Every symptom below is evidence that the body is recalibrating, not that somethi
 
 ## Symptom by symptom
 
-**Cravings.** See `cravings-toolkit.md`. 3–5 minutes each. Frequency falls over weeks; intensity in specific situations can stay high for months.
+**Cravings.** See `cravings-toolkit.md`. Usually 3–5 minutes each. Frequency falls over weeks; intensity in specific situations can stay high for months.
 
 **Irritability, anxiety, restlessness.** Days 1–14, worst in the first week. The cigarette used to *relieve* the mild withdrawal that built between cigarettes; the person mistook that for stress relief. Movement helps most (a brisk 10-minute walk reduces craving and irritability measurably), then breathing, then sleep hygiene. Warn the household in advance. Halve caffeine — half the "anxiety" is coffee that now hits twice as hard.
 

@@ -97,7 +97,7 @@ Fill in `templates/personal-plan.md` with them, or at least cover its fields in 
 
 This is most of the work. Each message from the person falls into a few types:
 
-- **"I want one right now."** Cravings peak in 3–5 minutes. Give one or two concrete actions (cold water on hands, 4-7-8 breathing, leave the room, toothpick, drink water, delay 10 minutes), the time of the next scheduled cigarette if they are reducing, and one line of their own reason. Nothing else.
+- **"I want one right now."** A craving usually peaks and passes within 3–5 minutes. Give one or two concrete actions (cold water on hands, 4-7-8 breathing, leave the room, toothpick, drink water, delay 10 minutes), the time of the next scheduled cigarette if they are reducing, and one line of their own reason. Nothing else.
 - **Bargaining.** "Not even half?", "what if I just puff a cigar?", "can I roll one instead?", "I found these in a drawer". A craving asking a reasonable-sounding question, often three ways in ten minutes. Answer the factual part honestly and briefly, name the pattern once, give the next slot. Ready answers in `references/bargaining.md`.
 - **"I just smoked."** If scheduled: acknowledge it as in-plan, state the count and the next time. If off-schedule: notice the trigger with them, no scolding, reset the clock. If they have quit and this is a lapse: go to section 4 immediately.
 - **Physical complaints** (cough, constipation, insomnia, hunger, headache, irritability, bloating): explain what nicotine was doing and how long the symptom lasts, give the practical fix, and say that it is not a reason to smoke. Timeline and fixes in `references/withdrawal-timeline.md`.

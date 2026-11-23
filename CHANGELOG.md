@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.4 — 2026-11-23
+
+Changed
+- `README.md`: says first what a person gets; a "Try Last Cigarette" list with a link for each assistant and what has been checked for it; the sample exchanges moved up; the comparison with a human adviser reworded so that it does not suggest equal effectiveness; a gentler line for passing the page on.
+- The length of a craving is now given as usual, not certain ("usually 3–5 minutes"), in `SKILL.md`, three reference files and the README. Sources added to `references/evidence-base.md` (HSE, NHS).
+- `INSTALL.md`: the procedure for AI agents now checks first whether the skill is already installed, covers apps where the user has to upload it, reports exactly what was verified, and keeps installation separate from logs and reminders. The single-file prompt is attached rather than pasted.
+
 ## 0.8.3 — 2026-11-23
 
 Changed

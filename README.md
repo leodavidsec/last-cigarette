@@ -14,18 +14,44 @@
 </p>
 
 <p align="center">
-  <a href="#install"><b>Install</b></a> ·
+  <a href="#try-last-cigarette"><b>Try it</b></a> ·
   <a href="#what-a-conversation-looks-like">What it looks like</a> ·
+  <a href="#what-you-get-back">What you get back</a> ·
   <a href="#what-it-does">What it does</a> ·
   <a href="#honest-status">Honest status</a> ·
-  <a href="#evidence">Evidence</a>
+  <a href="#install">Install</a>
 </p>
 
-**Stop smoking, vaping or any nicotine with an AI coach at your side, day by day.** `last-cigarette` is a free, open, evidence-based [Agent Skill](https://agentskills.io) for Claude. It also installs in ChatGPT, Gemini, Codex and Grok, and works as a single prompt with any other capable assistant.
+**Stop smoking, vaping or any nicotine with an AI coach at your side, day by day.** You get three things: a quit plan built around your own day, someone to write to the moment a craving hits, and a way back to the plan after a cigarette, without shame.
 
-It turns an AI assistant into the kind of trained adviser you would get on a good quitline, awake at 6 a.m. when your first coffee is half finished and your hand is reaching for the pack. It builds a quit plan with you, keeps the count and the clock, explains the stop-smoking medicines, stays with you through a craving, and treats a slip as information, not failure.
+`last-cigarette` is a free, open [Agent Skill](https://agentskills.io) that runs inside the AI assistant you already use, built from the current stop-smoking guidelines (NICE, WHO, Cochrane). It gives the kind of support a stop-smoking adviser gives, at 6 a.m. when your first coffee is half finished and your hand is reaching for the pack: it keeps the count and the clock, explains the medicines from their leaflets, and treats a slip as information, not failure.
 
-It is not a doctor, and it says so. It is free, and it stays free. If it helps you: [the pack you didn't buy](#the-pack-you-didnt-buy).
+It is not a doctor, and it says so. No one has yet measured whether it helps as much as a human adviser does.
+
+## Try Last Cigarette
+
+- **[Claude](INSTALL.md#claude-web-desktop-mobile)**: upload [`last-cigarette.zip`](https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette.zip) as a skill. *Used daily; this is where the coach was developed.*
+- **[ChatGPT](INSTALL.md#chatgpt)**: upload [`last-cigarette-chatgpt.zip`](https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette-chatgpt.zip) as a skill. Needs a Business, Enterprise, Healthcare or Edu workspace that has Skills. *Upload checked once; the coaching itself not yet tried there.*
+- **[Gemini](INSTALL.md#gemini-app-web-mobile-mac)**: upload the same [`last-cigarette-chatgpt.zip`](https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette-chatgpt.zip) as a skill. *Written from Google's documentation; not yet tried.*
+- **[Any other AI](INSTALL.md#any-other-assistant-local-models-a-custom-gpt-a-gem-an-api-call)**: attach [the single-file prompt](dist/last-cigarette.prompt.md) to the conversation and ask the assistant to follow it. *Not yet tried.*
+
+Coding agents (Claude Code, Codex, Gemini CLI, Grok Build) are under [Install](#install). **AI agents** installing this for someone: follow [the procedure in INSTALL.md](INSTALL.md#for-ai-agents-installing-this-skill-on-someones-behalf).
+
+Then start a new conversation and write: *"I want to stop smoking. Where do we start?"*
+
+Free, and it stays free. If it helps you: [the pack you didn't buy](#the-pack-you-didnt-buy).
+
+## What a conversation looks like
+
+> **You, 07:20:** day 4. halfway through my coffee, hands shaking, i want one so bad
+>
+> **Coach:** 07:20. It's the coffee one, I know. Put the cup down and run cold water over your hands for two minutes. A craving like this usually passes in three to five minutes. You said it yourself: the stairs, without stopping.
+
+> **You:** I smoked one last night. Nine days, gone.
+>
+> **Coach:** Thank you for telling me; most people hide it. One cigarette after nine days is a lapse, not a relapse, and your nine days are still real. What was happening right before?
+
+<sub>Illustrative exchanges, invented to show the shape of a reply. The coach answers in the language you write in.</sub>
 
 ## What you get back
 
@@ -37,6 +63,18 @@ That is what this project is for. It is not about willpower, and never about sha
 
 <sub>The small things are taken from interviews with people who stopped, published by the University of Oxford ([Health Experience Insights](https://hexi.ox.ac.uk/giving-smoking/effects-of-not-smoking)). The years are from fifty years of following British doctors ([Doll et al., BMJ 2004](https://pmc.ncbi.nlm.nih.gov/articles/PMC437139)), compared with carrying on smoking.</sub>
 
+## What it does
+
+- Asks what, how much and how soon after waking you smoke, what ended your last attempts, and what you like about it
+- Builds a plan with you: an abrupt stop, or a structured cut-down with a fixed quit date
+- Explains the medicines the way a well-informed friend would (cytisine, varenicline, nicotine replacement, bupropion, e-cigarettes), from the leaflet, and sends the decision to a pharmacist or doctor
+- Takes triggers apart one by one: the morning coffee, driving, after meals, work breaks, alcohol, stress
+- Stays with you through a craving, in replies short enough to read while it lasts (usually three to five minutes)
+- Keeps the count and the clock, and shows its arithmetic so you can check it
+- Explains withdrawal symptoms and how long each one lasts
+- Handles a slip without the "might as well finish the pack" spiral, and a relapse without blame
+- Knows where it stops: mental-health red flags, pregnancy, serious illness and drug interactions go to the right professional
+
 ## Why it exists
 
 Two in three adults who smoke want to stop. In a year about half try, and fewer than one in ten succeed. Most of those who try use neither counselling nor medicine (United States, 2022: [CDC](https://www.cdc.gov/mmwr/volumes/73/wr/mm7329a1.htm)).
@@ -45,30 +83,6 @@ Medicine and support together roughly double to triple the chance of stopping, c
 
 This project puts that half inside the AI assistant a person already has: at any hour, in their own language, for nothing. Whether it helps as much as a human adviser does is not known yet, and the [honest status](#honest-status) below says so.
 
-## What a conversation looks like
-
-> **You, 07:20:** day 4. halfway through my coffee, hands shaking, i want one so bad
->
-> **Coach:** 07:20. It's the coffee one, I know. Put the cup down and run cold water over your hands for two minutes. This peaks and is gone in three to five minutes. You said it yourself: the stairs, without stopping.
-
-> **You:** I smoked one last night. Nine days, gone.
->
-> **Coach:** Thank you for telling me; most people hide it. One cigarette after nine days is a lapse, not a relapse, and your nine days are still real. What was happening right before?
-
-<sub>Invented exchanges, written to show the shape of a reply. The coach answers in the language you write in.</sub>
-
-## What it does
-
-- Asks what, how much and how soon after waking you smoke, what ended your last attempts, and what you like about it
-- Builds a plan with you: an abrupt stop, or a structured cut-down with a fixed quit date
-- Explains the medicines the way a well-informed friend would (cytisine, varenicline, nicotine replacement, bupropion, e-cigarettes), from the leaflet, and sends the decision to a pharmacist or doctor
-- Takes triggers apart one by one: the morning coffee, driving, after meals, work breaks, alcohol, stress
-- Stays with you through a craving, in replies short enough to read in the three to five minutes it lasts
-- Keeps the count and the clock, and shows its arithmetic so you can check it
-- Explains withdrawal symptoms and how long each one lasts
-- Handles a slip without the "might as well finish the pack" spiral, and a relapse without blame
-- Knows where it stops: mental-health red flags, pregnancy, serious illness and drug interactions go to the right professional
-
 ## Install
 
 | Your assistant | How |
@@ -76,7 +90,7 @@ This project puts that half inside the AI assistant a person already has: at any
 | Claude (web, desktop, mobile) | Upload [`dist/last-cigarette.zip`](https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette.zip) under Customize > Skills |
 | ChatGPT, Gemini app | Upload [`dist/last-cigarette-chatgpt.zip`](https://github.com/leodavidsec/last-cigarette/raw/main/dist/last-cigarette-chatgpt.zip) |
 | Claude Code, Codex, Gemini CLI, Grok Build | `git clone` this repository into the agent's skills folder |
-| Anything else | Paste [`dist/last-cigarette.prompt.md`](dist/last-cigarette.prompt.md) as the system prompt or custom instructions |
+| Anything else | Attach [`dist/last-cigarette.prompt.md`](dist/last-cigarette.prompt.md) and ask the assistant to follow it |
 
 Exact steps for each, and which of them have been tried, are in [INSTALL.md](INSTALL.md). Or hand the job to your agent:
 
@@ -85,7 +99,7 @@ Install the last-cigarette skill from github.com/leodavidsec/last-cigarette
 and follow its INSTALL.md.
 ```
 
-Then start a new conversation and write: *"I want to stop smoking. Where do we start?"*
+The procedure an agent should follow is [written out in INSTALL.md](INSTALL.md#for-ai-agents-installing-this-skill-on-someones-behalf).
 
 Use the most capable model you have. The skill carries knowledge, not capability: it was developed with Anthropic's Claude, and that is the only model it has been used with. Smaller models keep the count and read the tone less well. More in [INSTALL.md](INSTALL.md#which-model).
 
@@ -97,7 +111,7 @@ It is not a prescriber, not a crisis service, and not a substitute for a doctor,
 
 ## Honest status
 
-Version 0.8.3.
+Version 0.8.4.
 
 | | State |
 |---|---|
@@ -129,7 +143,7 @@ If you belong to one of the untested rows and try it, an issue describing what w
 
 ## Pass it on
 
-Almost everyone knows someone who keeps saying “this is my last one”. Send them this page.
+Almost everyone knows someone who has said “this is my last one” and meant it. If you do, send them this page.
 
 If you want the next person to find it more easily, star the repository.
 

@@ -97,7 +97,7 @@ Fill in `templates/personal-plan.md` with them, or at least cover its fields in 
 
 This is most of the work. Each message from the person falls into a few types:
 
-- **"I want one right now."** Cravings peak in 3–5 minutes. Give one or two concrete actions (cold water on hands, 4-7-8 breathing, leave the room, toothpick, drink water, delay 10 minutes), the time of the next scheduled cigarette if they are reducing, and one line of their own reason. Nothing else.
+- **"I want one right now."** A craving usually peaks and passes within 3–5 minutes. Give one or two concrete actions (cold water on hands, 4-7-8 breathing, leave the room, toothpick, drink water, delay 10 minutes), the time of the next scheduled cigarette if they are reducing, and one line of their own reason. Nothing else.
 - **Bargaining.** "Not even half?", "what if I just puff a cigar?", "can I roll one instead?", "I found these in a drawer". A craving asking a reasonable-sounding question, often three ways in ten minutes. Answer the factual part honestly and briefly, name the pattern once, give the next slot. Ready answers in `references/bargaining.md`.
 - **"I just smoked."** If scheduled: acknowledge it as in-plan, state the count and the next time. If off-schedule: notice the trigger with them, no scolding, reset the clock. If they have quit and this is a lapse: go to section 4 immediately.
 - **Physical complaints** (cough, constipation, insomnia, hunger, headache, irritability, bloating): explain what nicotine was doing and how long the symptom lasts, give the practical fix, and say that it is not a reason to smoke. Timeline and fixes in `references/withdrawal-timeline.md`.
@@ -338,7 +338,7 @@ On a partial agonist, a second cigarette too soon, or a stronger product, often 
 
 ## The shape of a craving
 
-A craving is a wave: it builds for a minute or two, peaks, and is gone in 3–5 minutes whether or not the person smokes. Smoking *feels* like it ended the craving because the craving was about to end anyway. Say this once, early, and then make every intervention fit inside those five minutes. The person who gets through the peak twenty times learns, bodily, that urges pass; that is the whole skill.
+A craving is a wave: it builds for a minute or two, peaks, and has usually passed within 3–5 minutes whether or not the person smokes. Smoking *feels* like it ended the craving because the craving was about to end anyway. Say this once, early, and then make every intervention fit inside those five minutes. The person who gets through the peak twenty times learns, bodily, that urges pass; that is the whole skill.
 
 Three things make cravings feel worse than they are: hunger, thirst/dry mouth, and an unoccupied hand. Fix those first.
 
@@ -460,6 +460,8 @@ What this skill recommends and why. Figures are from systematic reviews and nati
 - Doll R, Peto R, Boreham J, Sutherland I. *Mortality in relation to smoking: 50 years' observations on male British doctors.* BMJ 2004 (men who continued smoking died on average about 10 years younger than lifelong non-smokers; stopping at age 60, 50, 40 or 30 gained about 3, 6, 9 or 10 years of life expectancy) — https://pmc.ncbi.nlm.nih.gov/articles/PMC437139
 - VanFrank B et al. *Adult Smoking Cessation — United States, 2022.* MMWR 2024;73:633–641 (of 28.8 million adults who smoked, 67.7% wanted to quit, 53.3% made a quit attempt and 8.8% quit; 38.3% of those who tried used counselling or medication) — https://www.cdc.gov/mmwr/volumes/73/wr/mm7329a1.htm
 - University of Oxford, Health Experience Insights, *Giving up smoking: effects of not smoking* (analysed interviews with people who stopped: what they noticed afterwards, welcome and unwelcome) — https://hexi.ox.ac.uk/giving-smoking/effects-of-not-smoking
+- HSE (Ireland's health service), *Cravings and withdrawal* (individual cravings usually pass in 3 to 5 minutes) — https://www.hse.ie/living-well/quit-smoking/get-help-to-quit/cravings-withdrawal/
+- NHS Better Health, *Understand your smoking triggers and cravings* (cravings usually last only a few minutes) — https://www.nhs.uk/better-health/quit-smoking/staying-smoke-free/understand-your-smoking-triggers-and-cravings/
 
 
 ---
@@ -1409,7 +1411,7 @@ Before replying: if a clock is available, get the time. Then write.
 ```
 [Time, if known]. [Acknowledge in 3–6 words — "I know. It's the coffee one."]
 [One action, imperative, under 5 minutes: cold water on hands / 4-7-8 ×4 / stand up and leave the room / drink a glass of water / set a 10-min timer.]
-[If reducing: "Next one is at HH:MM — N minutes."] [If quit: "This peaks and is gone in 3–5 minutes."]
+[If reducing: "Next one is at HH:MM — N minutes."] [If quit: "This usually peaks and passes within 3–5 minutes."]
 [Optional, only at the hard ones: one line of their own reason.]
 ```
 
@@ -1809,7 +1811,7 @@ Every symptom below is evidence that the body is recalibrating, not that somethi
 
 ## Symptom by symptom
 
-**Cravings.** See `cravings-toolkit.md`. 3–5 minutes each. Frequency falls over weeks; intensity in specific situations can stay high for months.
+**Cravings.** See `cravings-toolkit.md`. Usually 3–5 minutes each. Frequency falls over weeks; intensity in specific situations can stay high for months.
 
 **Irritability, anxiety, restlessness.** Days 1–14, worst in the first week. The cigarette used to *relieve* the mild withdrawal that built between cigarettes; the person mistook that for stress relief. Movement helps most (a brisk 10-minute walk reduces craving and irritability measurably), then breathing, then sleep hygiene. Warn the household in advance. Halve caffeine — half the "anxiety" is coffee that now hits twice as hard.
 

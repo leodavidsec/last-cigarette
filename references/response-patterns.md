@@ -37,7 +37,7 @@ Before replying: if a clock is available, get the time. Then write.
 ```
 [Time, if known]. [Acknowledge in 3–6 words — "I know. It's the coffee one."]
 [One action, imperative, under 5 minutes: cold water on hands / 4-7-8 ×4 / stand up and leave the room / drink a glass of water / set a 10-min timer.]
-[If reducing: "Next one is at HH:MM — N minutes."] [If quit: "This peaks and is gone in 3–5 minutes."]
+[If reducing: "Next one is at HH:MM — N minutes."] [If quit: "This usually peaks and passes within 3–5 minutes."]
 [Optional, only at the hard ones: one line of their own reason.]
 ```
 

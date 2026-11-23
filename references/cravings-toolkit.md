@@ -2,7 +2,7 @@
 
 ## The shape of a craving
 
-A craving is a wave: it builds for a minute or two, peaks, and is gone in 3–5 minutes whether or not the person smokes. Smoking *feels* like it ended the craving because the craving was about to end anyway. Say this once, early, and then make every intervention fit inside those five minutes. The person who gets through the peak twenty times learns, bodily, that urges pass; that is the whole skill.
+A craving is a wave: it builds for a minute or two, peaks, and has usually passed within 3–5 minutes whether or not the person smokes. Smoking *feels* like it ended the craving because the craving was about to end anyway. Say this once, early, and then make every intervention fit inside those five minutes. The person who gets through the peak twenty times learns, bodily, that urges pass; that is the whole skill.
 
 Three things make cravings feel worse than they are: hunger, thirst/dry mouth, and an unoccupied hand. Fix those first.
 
